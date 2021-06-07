@@ -1,12 +1,12 @@
 [
-  {"horizontal_pos": "5" , "vertical_pos": "7", "base_dim": "1", "height": "5", "tone": "red" },
-  {"horizontal_pos": "7", "vertical_pos": "3", "base_dim": "1.9", "height":  "12", "tone": "blue"},
-  {"horizontal_pos": "2.6", "vertical_pos": "1.2", "base_dim": "3", "height":  "7", "tone": "green"},
-  {"horizontal_pos": "3.7", "vertical_pos": "7.6", "base_dim": "5", "height": "1.5", "tone": "yellow" },
-  {"horizontal_pos": "8.1", "vertical_pos": "4.9", "base_dim": "5.6", "height":  "3", "tone": "black"},
-  {"horizontal_pos": "4.5", "vertical_pos": "9", "base_dim": "6.9", "height": "4", "tone": "violet"},
-  {"horizontal_pos": "7.3", "vertical_pos": "5", "base_dim": "4.20", "height": "8", "tone": "gold"},
-  {"horizontal_pos": "10", "vertical_pos": "2", "base_dim": "7", "height": "5.1", "tone": "orange"},
-  {"horizontal_pos": "11", "vertical_pos": "3", "base_dim": "10.2", "height": "4.9", "tone": "purple"},
-  {"horizontal_pos": "18", "vertical_pos": "3.6", "base_dim": "2", "height": "2.1", "tone": "grey"}
+  {"horizontal_pos": "5" , "vertical_pos": "7", "base_dim": "500", "height": "100", "tone": "red" },
+  {"horizontal_pos": "7", "vertical_pos": "3", "base_dim": "510", "height":  "120", "tone": "blue"},
+  {"horizontal_pos": "2.6", "vertical_pos": "1.2", "base_dim": "320", "height":  "70", "tone": "green"},
+  {"horizontal_pos": "3.7", "vertical_pos": "7.6", "base_dim": "580", "height": "105", "tone": "yellow" },
+  {"horizontal_pos": "8.1", "vertical_pos": "4.9", "base_dim": "506", "height":  "250", "tone": "black"},
+  {"horizontal_pos": "4.5", "vertical_pos": "9", "base_dim": "609", "height": "320", "tone": "violet"},
+  {"horizontal_pos": "7.3", "vertical_pos": "5", "base_dim": "402", "height": "180", "tone": "gold"},
+  {"horizontal_pos": "10", "vertical_pos": "2", "base_dim": "700", "height": "510", "tone": "orange"},
+  {"horizontal_pos": "11", "vertical_pos": "3", "base_dim": "120", "height": "149", "tone": "purple"},
+  {"horizontal_pos": "18", "vertical_pos": "3.6", "base_dim": "850", "height": "210", "tone": "grey"}
 ]
