@@ -16,17 +16,16 @@ var svg = body.append("svg")
 
 
 function drawTriangles(element){
-    var dim = element.base_dim;
+    var dim = (element.height * element.base_dim)/2;
     svg.append("path")
       .attr("d", triangle.size(dim))
       .attr("transform", function (d) {
-        var boundingBox = this.getBBox();
-        var elementWidth = Math.ceil(boundingBox.width);
-        var randomXOffset = Math.random() * (width - elementWidth - 2 * borderSize) + elementWidth/2 + borderSize;
-        var randomYOffset = Math.random() * (height - elementWidth - 2 * borderSize) + elementWidth/2 + borderSize;
+        var elementWidth = element.base_dim;
+        var randomXOffset = element.horizontal_pos;
+        var randomYOffset = element.vertical_pos;
         return "translate(" + randomXOffset + "," + randomYOffset + ")";
       })
-      .attr("fill", "rgb(" + parseInt(Math.random() * 255) + "," + parseInt(Math.random() * 255) + "," + parseInt(Math.random() * 255) + ")")
+      .attr("fill", "rgb(" + element.tone +")")
       .attr("opacity", 2)
       .attr("class", "path");
 }

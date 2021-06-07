@@ -1,12 +1,12 @@
 [
-  {"horizontal_pos": "5" , "vertical_pos": "7", "base_dim": "500", "height": "100", "tone": "red" },
-  {"horizontal_pos": "7", "vertical_pos": "3", "base_dim": "510", "height":  "120", "tone": "blue"},
-  {"horizontal_pos": "2.6", "vertical_pos": "1.2", "base_dim": "320", "height":  "70", "tone": "green"},
-  {"horizontal_pos": "3.7", "vertical_pos": "7.6", "base_dim": "580", "height": "105", "tone": "yellow" },
-  {"horizontal_pos": "8.1", "vertical_pos": "4.9", "base_dim": "506", "height":  "250", "tone": "black"},
-  {"horizontal_pos": "4.5", "vertical_pos": "9", "base_dim": "609", "height": "320", "tone": "violet"},
-  {"horizontal_pos": "7.3", "vertical_pos": "5", "base_dim": "402", "height": "180", "tone": "gold"},
-  {"horizontal_pos": "10", "vertical_pos": "2", "base_dim": "700", "height": "510", "tone": "orange"},
-  {"horizontal_pos": "11", "vertical_pos": "3", "base_dim": "120", "height": "149", "tone": "purple"},
-  {"horizontal_pos": "18", "vertical_pos": "3.6", "base_dim": "850", "height": "210", "tone": "grey"}
+  {"horizontal_pos": "300" , "vertical_pos": "150", "base_dim": "50", "height": "10", "tone": "0, 0, 0" },
+  {"horizontal_pos": "100", "vertical_pos": "300", "base_dim": "51", "height":  "12", "tone": "255,0,0"},
+  {"horizontal_pos": "180", "vertical_pos": "102", "base_dim": "32", "height":  "17", "tone": "0,255,0"},
+  {"horizontal_pos": "370", "vertical_pos": "376", "base_dim": "58", "height": "15", "tone": "0,0,255" },
+  {"horizontal_pos": "450", "vertical_pos": "249", "base_dim": "50", "height":  "25", "tone": "255,255,0"},
+  {"horizontal_pos": "245", "vertical_pos": "189", "base_dim": "60", "height": "32", "tone": "0,255,255"},
+  {"horizontal_pos": "303", "vertical_pos": "500", "base_dim": "40", "height": "18", "tone": "255,0,255"},
+  {"horizontal_pos": "189", "vertical_pos": "307", "base_dim": "70", "height": "51", "tone": "128,0,128"},
+  {"horizontal_pos": "436", "vertical_pos": "453", "base_dim": "18", "height": "34", "tone": "0,128,0"},
+  {"horizontal_pos": "389", "vertical_pos": "400", "base_dim": "85", "height": "21", "tone": "210,105,30"}
 ]
