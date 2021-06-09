@@ -20,9 +20,6 @@ var svg = d3.select("body").append("svg")
 
 function drawAxes(){
 
-  var xAxisTranslate = height - 40;
-  var xAxisTextTranslate = xAxisTranslate + 30;
-
   svg.append("g")
       .attr("transform", "translate(0, 0)")
       .call(y_axis);
@@ -32,14 +29,14 @@ function drawAxes(){
       .call(x_axis);
 
   svg.append("text")
-      .attr("transform", "translate(870, 0)")
+      .attr("transform", "translate(880, 0)")
       .attr("x", 15)
       .attr("font-size","15px")
       .style("text-anchor", "start")
       .text("X");
 
   svg.append("text")
-      .attr("transform", "rotate(-90)")
+      .attr("transform", "translate(0, 600)")
       .attr("y", 15)
       .attr("font-size","15px")
       .style("text-anchor", "end")
