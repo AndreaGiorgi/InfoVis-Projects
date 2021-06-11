@@ -55,6 +55,29 @@ function drawTriangle(triangle, name, trianglesNames){
     {"x": x2,"y": y1},
     {"x": x3,"y": y2}];
 
+
+/*	rectangle_svg = svg.append('rect')
+	.attr("class", name)
+	.attr("x", x1)
+	.attr("y", y1)
+	.attr("width", triangle.base_dim)
+	.attr("height", triangle.height)
+	.style("stroke", "rgb(255,255,255)")
+	.on("keydown", function(){
+		d3.select(this);
+		var x = event.which || event.keyCode;
+		console.log("keyCode: " + x)
+		if(event){
+			current_position = x1;
+			current_width = triangle.base_dim;
+			current_height = triangle.height;
+			for(t in trianglesNames){
+			}
+		}
+	}); */
+	
+	var selected_triangle = null;
+
 	triangle_svg = svg.append('polygon')
 	.attr("class", name)
 	.data([triangle_coordinates])
@@ -62,7 +85,10 @@ function drawTriangle(triangle, name, trianglesNames){
 		return d.map(function(d) {
 			return [d.x, d.y].join(","); }).join(" ");})
 	.attr("fill", "rgb(" + triangle.tone +")")
-	.attr("tabindex", 0) //Javascript documentation: hell on Earth but fundamental
+	.attr("tabindex", 0) //Javascript is hell on earth
+	.on("click", function () { focused = this; 
+		alert("You have selected the " + name + "\nCoordinates [" + x1 + "," + y1 + "]");
+		selected_triangle = this;})
 	.on("click keydown", function(e){
 		d3.select(this);
 		code = e.keyCode
@@ -73,5 +99,6 @@ function drawTriangle(triangle, name, trianglesNames){
 		if(code === KeyY){
 
 		}
-	}); 
+	})
+		; 
 }
