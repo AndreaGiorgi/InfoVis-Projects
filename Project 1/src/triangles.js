@@ -1,10 +1,14 @@
+const KeyX = 88;
+const KeyY = 89;
+
 d3.json("data/dataset.json").then(function(data) {
 	console.log(data);
 	drawAxes();
 	var i = 0
-	nameTriangles=["triangle1","triangle2","triangle3","triangle4","triangle5","triangle6","triangle7","triangle9","triangle9","triangle10"]
+	nameTriangles=["triangle_1","triangle_2","triangle_3","triangle_4","triangle_5","triangle_6","triangle_7","triangle_9","triangle_9","triangle_10"]
 	for (element in data){
 			drawTriangle(data[element], nameTriangles[i], nameTriangles);
+			i++;
 		}
 	}).catch(function(error) {
 	console.log(error);
@@ -50,28 +54,6 @@ function drawTriangle(triangle, name, trianglesNames){
     [{"x": x1, "y": y1},
     {"x": x2,"y": y1},
     {"x": x3,"y": y2}];
-	
-	rectangle_svg = svg.append('rect')
-	.attr("class", name)
-	.attr("x", x1)
-	.attr("y", y1)
-	.attr("width", triangle.base_dim)
-	.attr("height", triangle.height)
-	.style("stroke", "rgb(255,255,255)")
-	.on("click keydown", function(event){
-		console.log("ok click")
-		console.log("keyCode: " + event.keyCode)
-		if(event.keyCode == '88'){
-			current_position = x1;
-			current_width = triangle.base_dim;
-			current_height = triangle.height;
-			for(t in trianglesNames){
-
-			}
-		}
-	})
-	.on("focus", function(){});	
-	
 
 	triangle_svg = svg.append('polygon')
 	.attr("class", name)
@@ -79,5 +61,17 @@ function drawTriangle(triangle, name, trianglesNames){
 	.attr("points",function(d) { 
 		return d.map(function(d) {
 			return [d.x, d.y].join(","); }).join(" ");})
-	.attr("fill", "rgb(" + triangle.tone +")"); 
-} 
+	.attr("fill", "rgb(" + triangle.tone +")")
+	.attr("tabindex", 0) //Javascript documentation: hell on Earth but fundamental
+	.on("click keydown", function(e){
+		d3.select(this);
+		code = e.keyCode
+		console.log(code);
+		if(code === KeyX){
+
+		}
+		if(code === KeyY){
+
+		}
+	}); 
+}
