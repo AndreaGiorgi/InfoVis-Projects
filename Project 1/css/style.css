@@ -5,6 +5,10 @@
     shape-rendering: crispEdges;
 }
 
+.graph-svg-component {
+    background-color: whitesmoke;
+}
+
 .x.axis path {
     display: none;
 }
