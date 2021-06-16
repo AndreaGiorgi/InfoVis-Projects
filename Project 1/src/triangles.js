@@ -173,7 +173,7 @@ function drawTriangle(triangle, name, triangles){
 
 			for(i=0; i < 10; i++){
 					temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
-					temp_y2 = yScale(y1); //Our y coordinate becomes our height
+					temp_y2 = yScale(y1); //Our y coordinate becomes our height [height = y2 - y1]
 
 					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
 					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
