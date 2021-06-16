@@ -85,35 +85,36 @@ function drawTriangle(triangle, name, triangles){
 			d3.select(".AxisX").transition().duration(2000).call(xAxis)
 
 			for(i=0; i < 10; i++){
-				if(triangles[i] === name){
-					temp_x1 = xScale(temp_width);
-					temp_x2 = xScale(temp_width*2);
+					temp_x1 = xScale(temp_width); //Our witdh becomes our x coordinate
+					temp_x2 = xScale(x1); //Our x coordinate becomes our width
 					temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
 					
-					d3.select(".line1_"+ name).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
-					d3.select(".line2_"+ name).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
-					d3.select(".line3_"+ name).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
-				}
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
 			}
 			
 		}
 		if(e.keyCode === KeyY){
-			// Caratteristica: larghezza
-			// We have to change axis scale in order to be sure to fit all triangles inside the SVG box
+			// We have to change axis scale in order to allow a better understanding
 
-			newHeight = 2000;
+			newHeight = 1000;
 			yScale.domain([0, newHeight - margin.top - margin.bottom])
+			yAxis.ticks(30);
 			d3.select(".svgBox").transition().duration(0).attr("Height", newHeight);
 			d3.select(".AxisY").transition().duration(2000).call(yAxis)
+
+			// selectAll sometimes doesn't work, switch to manual selection of all edges of all triangles. 
+			// yScale is necessary in order to keep the triangles inside the svgBox, the dimensions are kept intact.
+
 			for(i=0; i < 10; i++){
-				if(triangles[i] === name){
-				temp_y1 = yScale(temp_width);
-				temp_y2 = yScale(y2 + temp_width);
-				d3.select(".line1_"+ name).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
-				d3.select(".line2_"+ name).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-				d3.select(".line3_"+ name).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+				temp_y1 = yScale(temp_width); //Width becomes our y coordinate
+				temp_y2 = yScale(x1); //Our x coordinate becomes our height
+				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
+				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
 				}
-			}	
+			
 		}
 	});
 
@@ -142,41 +143,41 @@ function drawTriangle(triangle, name, triangles){
 		var temp_y2 = y2;
 
 		if(e.keyCode === KeyX){
-			//Caratteristica: altezza
-			newWidth = 500;
+
+			newWidth = 800;
 			xScale.domain([0, newWidth - margin.left - margin.right])
 			xAxis.ticks(20);
 			d3.select(".svgBox").transition().duration(0).attr("Width", newWidth);
 			d3.select(".AxisX").transition().duration(2000).call(xAxis)
 			for(i=0; i < 10; i++){
-				if(triangles[i] === name){
-					temp_x1 = xScale(temp_height);
-					temp_x2 = xScale(temp_height + base_dim);
-					temp_x3 = xScale(parseInt((temp_x2 + temp_x1)/2));   
+					temp_x1 = temp_height; //Our height becomes our x coordinate
+					temp_x2 = y1; //Our y coordinate becomes our width
+					temp_x3 = parseInt((temp_x2 + temp_x1)/2);   
 				
-					d3.select(".line1_"+ name).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
-					d3.select(".line2_"+ name).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
-					d3.select(".line3_"+ name).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
-				}
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
 			}
 
 		}
 		if(e.keyCode === KeyY){
-			//Caratteristica: altezza 
-			newHeight = 2000;
+	
+			newHeight = 1000;
 			yScale.domain([0, newHeight - margin.top - margin.bottom]);
-			yAxis.ticks(20);
+			yAxis.ticks(30);
 			d3.select(".svgBox").transition().duration(0).attr("Height", newHeight);
 			d3.select(".AxisY").transition().duration(2000).call(yAxis)
-			for(i=0; i < 10; i++){
-				if(triangles[i] === name){
-					temp_y1 = yScale(temp_height);
-					temp_y2 = yScale(temp_height + yScale(y2));
 
-					d3.select(".line1_"+ name).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
-					d3.select(".line2_"+ name).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-					d3.select(".line3_"+ name).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-				}
+			// selectAll sometimes doesn't work, switch to manual selection of all edges of all triangles. 
+			// yScale is necessary in order to keep the triangles inside the svgBox, the dimensions are kept intact.
+
+			for(i=0; i < 10; i++){
+					temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
+					temp_y2 = yScale(y1); //Our y coordinate becomes our height
+
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
 			}
 		}
 	});
@@ -202,44 +203,43 @@ function drawTriangle(triangle, name, triangles){
 		var temp_x1 = null;
 		var temp_x2 = null;
 		var temp_x3 = null;
-		var temp_y1 = y1;
-		var temp_y2 = y2;
+		var temp_y1 = null;
+		var temp_y2 = null;
 		if(e.keyCode === KeyX){
-			//Caratteristica: altezza
+
 			newWidth = 1000;
 			xScale.domain([0, newWidth - margin.left - margin.right]);
 			xAxis.ticks(20);
 			d3.select(".svgBox").transition().duration(0).attr("Width", newWidth);
 			d3.select(".AxisX").transition().duration(2000).call(xAxis)
 			for(i=0; i < 10; i++){
-				if(triangles[i] === name){
-					temp_x1 = xScale(temp_height);
-					temp_x2 = xScale(temp_height + base_dim);
-					temp_x3 = xScale(parseInt((temp_x2 + temp_x1)/2));  
+				temp_x1 = temp_height; //Our height becomes our x coordinate
+				temp_x2 = y1; //Our y coordinate becomes our width
+				temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
 				
-					d3.select(".line1_"+ name).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
-					d3.select(".line2_"+ name).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
-					d3.select(".line3_"+ name).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
-				}
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
 			}
 		}
 		if(e.keyCode === KeyY){
-			//Caratteristica: altezza
 
-			newHeight = 2000;
+			newHeight = 1000;
 			yScale.domain([0, newHeight - margin.top - margin.bottom]);
-			yAxis.ticks(20);
+			yAxis.ticks(30);
 			d3.select(".svgBox").transition().duration(0).attr("Height", newHeight);
 			d3.select(".AxisY").transition().duration(2000).call(yAxis)
-			for(i=0; i < 10; i++){
-				if(triangles[i] === name){
-					temp_y1 = yScale(temp_height);
-					temp_y2 = yScale(temp_height + yScale(y2));
 
-					d3.select(".line1_"+ name).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
-					d3.select(".line2_"+ name).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-					d3.select(".line3_"+ name).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-				}
+			// selectAll sometimes doesn't work, switch to manual selection of all edges of all triangles. 
+			// yScale is necessary in order to keep the triangles inside the svgBox, the dimensions are kept intact.
+
+			for(i=0; i < 10; i++){
+				temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
+				temp_y2 = yScale(y1); //Our y coordinate becomes our height
+
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
 			}
 		}
 	});
