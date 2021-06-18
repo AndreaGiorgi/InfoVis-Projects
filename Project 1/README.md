@@ -28,6 +28,8 @@ How to use
 
 On screen will be shown ten different triangles with different dimensions and characteristics. Following the procedure explaned before it is possible to start the animation. The change in coordinates and variables values is one-way, if the procedure is applied again after the first transition the new dimensions will be used as starting point resulting in the end in a complete join of all triangles. 
 
+A new feature has been introduced, doing a double click on an edge the original coordinates of that edge will be shown on screen, helping to visualize the changes in position. 
+
 Maintainers
 ------------
 
