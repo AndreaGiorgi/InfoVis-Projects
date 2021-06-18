@@ -19,9 +19,9 @@ This project requires some specific modules:
 How to use
 ------------
 
-First of all is necessery to install ```http-server```, in order to do that it is necessary to install NodeJS for npm support. After NodeJS is installed start a terminal session and using the command ```npm install http-server``` the needed plugin will be installed and activated for use. 
+First of all is necessary to install ```http-server```, in order to do that it is necessary to install NodeJS for npm support. After NodeJS is installed start a terminal session and using the command ```npm install http-server``` the needed plugin will be installed and activated for use. 
 
-Browse to the directory of the project, the one containing ```index.html``` file, from there open a terminal/powershell instance and start the local server using the command ```http-server. Now using a browser like Mozilla Firefox go to ```localhost:8080``` and the project will show up. 
+Browse to the directory of the project, the one containing ```index.html``` file, from there open a terminal/powershell instance and start the local server using the command ```http-server```. Now using a browser like Mozilla Firefox go to ```localhost:8080``` and the project will show up. 
 
 Maintainers
 ------------
