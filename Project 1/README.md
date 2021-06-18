@@ -16,12 +16,17 @@ This project requires some specific modules:
  * NPM (https://www.npmjs.com/)
  * http-server (https://github.com/http-party/http-server)
 
-How to use
+How to start
 ------------
 
 First of all is necessary to install ```http-server```, in order to do that it is necessary to install NodeJS for npm support. After NodeJS is installed start a terminal session and using the command ```npm install http-server``` the needed plugin will be installed and activated for use. 
 
 Browse to the directory of the project, the one containing ```index.html``` file, from there open a terminal/powershell instance and start the local server using the command ```http-server```. Now using a browser like Mozilla Firefox go to ```localhost:8080``` and the project will show up. 
+
+How to start
+------------
+
+On screen will be shown ten different triangles with different dimensions and characteristics. Following the procedure explaned before it is possible to start the animation. The change in coordinates and variables values is one-way, if the procedure is applied again after the first transition the new dimensions will be used as starting point resulting in the end in a complete join of all triangles. 
 
 Maintainers
 ------------
