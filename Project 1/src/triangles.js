@@ -1,16 +1,16 @@
-const KeyX = 88;
-const KeyY = 89;
+const KeyX = 88; //Javascript code for X key
+const KeyY = 89; //Javascript code for Y key
 
 d3.json("data/dataset.json").then(function(data) {
 	drawAxes();
 	var i = 0;
-	nameTriangles=["triangle_0","triangle_1","triangle_2","triangle_3","triangle_4","triangle_5","triangle_6","triangle_7","triangle_8","triangle_9"];
+	nameTriangles=["triangle_Sarah","triangle_Alice","triangle_Jenny","triangle_John","triangle_Max","triangle_Ken","triangle_Ryu","triangle_PacMan","triangle_Slug","triangle_Shinobi"];
 	for (element in data){
 			drawTriangle(data[element], nameTriangles[i], nameTriangles);
 			i++;
 		}
 	}).catch(function(error) {
-	console.log(error);
+		console.log(error);
 	});
 
 var margin = {top: 20, right: 10, bottom: 30, left: 100};
@@ -217,7 +217,7 @@ function drawTriangle(triangle, name, triangles){
 			d3.select(".svgBox").transition().duration(0).attr("Width", newWidth);
 			d3.select(".AxisX").transition().duration(2000).call(xAxis)
 			for(i=0; i < 10; i++){
-				
+
 				var temp_x1 = temp_height; //Our height becomes our x coordinate
 				var temp_x2 = y1; //Our y coordinate becomes our width
 				var temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
