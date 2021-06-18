@@ -41,10 +41,12 @@ function drawAxes(){
 	.call(xAxis);
 } 
 
-function random_rgba() {
-    var o = Math.round, r = Math.random, s = 255;
-    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
-}
+function colorGen() {
+	const r = Math.floor(Math.random() * 256);
+	const g = Math.floor(Math.random() * 256);
+	const b = Math.floor(Math.random() * 256);
+	return "rgb(" + r + "," + g + "," + b + ")";
+  }
 
 function drawTriangle(triangle, name, triangles){
 
@@ -92,7 +94,7 @@ function drawTriangle(triangle, name, triangles){
 					temp_x2 = xScale(x1); //Our x coordinate becomes our width
 					temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
 
-					random_colour = random_rgba();
+					random_colour = colorGen();
 					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2).transition().duration(1000).attr("stroke", random_colour);
 					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
@@ -115,7 +117,7 @@ function drawTriangle(triangle, name, triangles){
 				temp_y1 = yScale(temp_width); //Width becomes our y coordinate
 				temp_y2 = yScale(x1); //Our x coordinate becomes our height
 
-				random_colour = random_rgba();
+				random_colour = colorGen();
 				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1).transition().duration(1000).attr("stroke", random_colour);
 				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
@@ -160,7 +162,7 @@ function drawTriangle(triangle, name, triangles){
 					temp_x2 = y1; //Our y coordinate becomes our width
 					temp_x3 = parseInt((temp_x2 + temp_x1)/2);   
 
-					random_colour = random_rgba();
+					random_colour = colorGen();
 					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2).transition().duration(1000).attr("stroke", random_colour);	
 					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
@@ -182,7 +184,7 @@ function drawTriangle(triangle, name, triangles){
 					temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
 					temp_y2 = yScale(y1); //Our y coordinate becomes our height [height = y2 - y1]
 
-					random_colour = random_rgba();
+					random_colour = colorGen();
 					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1).transition().duration(1000).attr("stroke", random_colour);	
 					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
@@ -222,7 +224,7 @@ function drawTriangle(triangle, name, triangles){
 				var temp_x2 = y1; //Our y coordinate becomes our width
 				var temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
 				
-				random_colour = random_rgba()
+				random_colour = colorGen()
 				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2).transition().duration(1000).attr("stroke", random_colour);
 				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
@@ -243,7 +245,7 @@ function drawTriangle(triangle, name, triangles){
 				var temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
 				var temp_y2 = yScale(y1); //Our y coordinate becomes our height
 				
-				random_colour = random_rgba();
+				random_colour = colorGen();
 				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1).transition().duration(1000).attr("stroke", random_colour);
 				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
