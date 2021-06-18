@@ -41,13 +41,16 @@ function drawAxes(){
 	.call(xAxis);
 } 
 
+function random_rgba() {
+    var o = Math.round, r = Math.random, s = 255;
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+}
 
 function drawTriangle(triangle, name, triangles){
 
 	var x1 = parseInt(triangle.x); //Coordinate [x,y]
     var x2 = parseInt(x1) + parseInt(triangle.base_dim); //width
     var x3 = parseInt((x2 + x1)/2);
-	var base_dim = parseInt(triangle.base_dim);
     var y1 = parseInt(triangle.y); // Coordinate [x,y]
     var y2 = parseInt(y1) + parseInt(triangle.height); //height
 
@@ -60,9 +63,9 @@ function drawTriangle(triangle, name, triangles){
 	.attr("y2", y1)
 	.attr("stroke", "rgb(" + triangle.tone +")")
 	.attr("stroke-width", 2)
-	.attr("tabindex", 0) //Javascript is hell on earth
+	.attr("tabindex", 0)  
 	.on("dblclick", function () { focused = this; 
-		alert("You have selected an edge of " + name + "\nCoordinates [" + x1 + "," + y1 + "]");
+		alert("You have selected an edge of " + name + "\nThe original coordinates are [" + x1 + "," + y1 + "]");
 		selected_triangle = this;
 	})
 	.on("click keydown", function(e){
@@ -88,10 +91,11 @@ function drawTriangle(triangle, name, triangles){
 					temp_x1 = xScale(temp_width); //Our witdh becomes our x coordinate
 					temp_x2 = xScale(x1); //Our x coordinate becomes our width
 					temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
-					
-					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
-					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
-					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
+
+					random_colour = random_rgba();
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2).transition().duration(1000).attr("stroke", random_colour);
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 			}
 			
 		}
@@ -110,9 +114,11 @@ function drawTriangle(triangle, name, triangles){
 			for(i=0; i < 10; i++){
 				temp_y1 = yScale(temp_width); //Width becomes our y coordinate
 				temp_y2 = yScale(x1); //Our x coordinate becomes our height
-				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
-				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+
+				random_colour = random_rgba();
+				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1).transition().duration(1000).attr("stroke", random_colour);
+				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
+				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 				}
 			
 		}
@@ -127,9 +133,9 @@ function drawTriangle(triangle, name, triangles){
 	.attr("y2", y2)  
 	.attr("stroke", "rgb(" + triangle.tone +")")
 	.attr("stroke-width", 3)
-	.attr("tabindex", 0) //Javascript is hell on earth
+	.attr("tabindex", 0)  
 	.on("dblclick", function () { focused = this; 
-		alert("You have selected an edge of " + name + "\nCoordinates [" + x1 + "," + y1 + "]\n");
+		alert("You have selected an edge of " + name + "\nThe original coordinates are [" + x1 + "," + y1 + "]");
 		selected_triangle = this;
 	})
 	.on("click keydown", function(e){
@@ -153,10 +159,11 @@ function drawTriangle(triangle, name, triangles){
 					temp_x1 = temp_height; //Our height becomes our x coordinate
 					temp_x2 = y1; //Our y coordinate becomes our width
 					temp_x3 = parseInt((temp_x2 + temp_x1)/2);   
-				
-					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
-					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
-					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
+
+					random_colour = random_rgba();
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2).transition().duration(1000).attr("stroke", random_colour);	
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 			}
 
 		}
@@ -175,9 +182,10 @@ function drawTriangle(triangle, name, triangles){
 					temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
 					temp_y2 = yScale(y1); //Our y coordinate becomes our height [height = y2 - y1]
 
-					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
-					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+					random_colour = random_rgba();
+					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1).transition().duration(1000).attr("stroke", random_colour);	
+					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
+					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 			}
 		}
 	});
@@ -191,20 +199,16 @@ function drawTriangle(triangle, name, triangles){
 	.attr("y2", y2)
 	.attr("stroke", "rgb(" + triangle.tone +")")
 	.attr("stroke-width", 5)
-	.attr("tabindex", 0) //Javascript is hell on earth
+	.attr("tabindex", 0) 
 	.on("dblclick", function () { focused = this; 
-		alert("You have selected an edge of " + name + "\nCoordinates [" + x1 + "," + y1 + "]\n");
+		alert("You have selected an edge of " + name + "\nThe original coordinates are [" + x1 + "," + y1 + "]");
 		selected_triangle = this;
 	})
 	.on("click keydown", function(e){
 		d3.select(this);
 		console.log(e.keyCode);
 		var temp_height = parseInt(y2-y1);
-		var temp_x1 = null;
-		var temp_x2 = null;
-		var temp_x3 = null;
-		var temp_y1 = null;
-		var temp_y2 = null;
+		
 		if(e.keyCode === KeyX){
 
 			newWidth = 1000;
@@ -213,13 +217,15 @@ function drawTriangle(triangle, name, triangles){
 			d3.select(".svgBox").transition().duration(0).attr("Width", newWidth);
 			d3.select(".AxisX").transition().duration(2000).call(xAxis)
 			for(i=0; i < 10; i++){
-				temp_x1 = temp_height; //Our height becomes our x coordinate
-				temp_x2 = y1; //Our y coordinate becomes our width
-				temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
 				
-					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2);
-					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3);
-					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3);
+				var temp_x1 = temp_height; //Our height becomes our x coordinate
+				var temp_x2 = y1; //Our y coordinate becomes our width
+				var temp_x3 = parseInt((temp_x2 + temp_x1)/2);  
+				
+				random_colour = random_rgba()
+				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition().duration(2000).attr("x2", temp_x2).transition().duration(1000).attr("stroke", random_colour);
+				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x2).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
+				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 			}
 		}
 		if(e.keyCode === KeyY){
@@ -234,12 +240,13 @@ function drawTriangle(triangle, name, triangles){
 			// yScale is necessary in order to keep the triangles inside the svgBox, the dimensions are kept intact.
 
 			for(i=0; i < 10; i++){
-				temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
-				temp_y2 = yScale(y1); //Our y coordinate becomes our height
-
-					d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1);
-					d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
-					d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1);
+				var temp_y1 = yScale(temp_height); //Our height becomes our y coordinate
+				var temp_y2 = yScale(y1); //Our y coordinate becomes our height
+				
+				random_colour = random_rgba();
+				d3.select(".line1_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition().duration(2000).attr("y2", temp_y1).transition().duration(1000).attr("stroke", random_colour);
+				d3.select(".line2_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
+				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 			}
 		}
 	});
