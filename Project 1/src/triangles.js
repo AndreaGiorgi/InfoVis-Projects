@@ -79,8 +79,8 @@ function drawTriangle(triangle, name, triangles){
 		var temp_x3 = null;
 		var temp_y1 = y1;
 		var temp_y2 = y2;
+
 		if(e.keyCode === KeyX){
-			// Carateristica: larghezza
 
 			// We have to change axis scale in order to be sure to fit all triangles inside the SVG box
 			newWidth = 800;
@@ -101,9 +101,10 @@ function drawTriangle(triangle, name, triangles){
 			}
 			
 		}
-		if(e.keyCode === KeyY){
-			// We have to change axis scale in order to allow a better understanding
 
+		if(e.keyCode === KeyY){
+
+			// We have to change axis scale in order to allow a better understanding
 			newHeight = 1000;
 			yScale.domain([0, newHeight - margin.top - margin.bottom])
 			yAxis.ticks(30);
@@ -169,6 +170,7 @@ function drawTriangle(triangle, name, triangles){
 			}
 
 		}
+
 		if(e.keyCode === KeyY){
 	
 			newHeight = 1000;
@@ -230,6 +232,7 @@ function drawTriangle(triangle, name, triangles){
 				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("x1", temp_x1).transition(2000).attr("x2", temp_x3).transition().duration(1000).attr("stroke", random_colour);
 			}
 		}
+		
 		if(e.keyCode === KeyY){
 
 			newHeight = 1000;
@@ -251,6 +254,5 @@ function drawTriangle(triangle, name, triangles){
 				d3.select(".line3_"+ triangles[i]).transition().duration(2000).attr("y1", temp_y1).transition(2000).attr("y2",  temp_y2 + temp_y1).transition().duration(1000).attr("stroke", random_colour);
 			}
 		}
-	});
-	
+	});	
 }
