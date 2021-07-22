@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
+*{
+  background-color: #F5FBEF;
+}
+
 html, body{
     font-family: 'Montserrat', 'Roboto','Arial' sans-serif;
+    background-color: #F5FBEF;
     text-rendering: optimizeLegibility;
     -webkit-font-feature-settings: "kern" 1;
     color: #333;
@@ -50,7 +55,6 @@ a {
 }
 
 svg{
-  background-color: #0D1321;
   padding: 10px;
   border-radius: 5px;
 }
@@ -60,8 +64,8 @@ svg{
   justify-content: center;
   flex-direction: column;
   margin: 0 auto 2em auto;
-  min-height: 750px;
-  min-width: 1000px;
+  min-height: 620px;
+  min-width: 970px;
 }
 
 .county:hover{
