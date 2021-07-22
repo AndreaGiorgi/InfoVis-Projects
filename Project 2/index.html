@@ -6,10 +6,23 @@
 	<meta content="utf-8" http-equiv="encoding">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="lib/d3.v6.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha256-tHoAPGoNdhIR28YHl9DWLzeRfdwigkH7OCBXMrHXhoM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
 </head>
 <body>
+    <h1 class="page-title">Radiation levels in a week intervall <br/> obtained from norwegian government data<br/></h1>
+    <div class="top-summary">
+        <p>Radiation level monitoring became of major importance after the Chernobyl events of 1986 and more so after the Fukushima events of 2011. 
+            The Norwegian government, as well as the Swedish, Danish and Finnish governments, 
+            monitors radiation levels throughout the country on a daily basis throughout various monitoring stations.
+            Attention to this issue has increased starting from 22/23 June 2020, when monitoring stations detected abnormal 
+            levels of cesium-134, cesium-137, cobalt-60 and ruthenium-103 
+            <a href= 'https: / /www.sciencealert.com/unexpected-radiation-spike-detected-over-europe-authorities-say' target = "_blank">(source)</a> 
+            in the North and Norwegian sea.
+          </p>
+          <p>Description of project.</p>
+          <p> Information about data source.</p>
+        </div>
 <svg id='canvas'></svg>
 </body>
-<script src="src/radnett.js"></script>
+<script src="src/radnettv2.js"></script>
 </html>

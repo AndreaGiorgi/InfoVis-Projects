@@ -1,19 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 html, body{
-  min-height: 100%
+    font-family: 'Montserrat', 'Roboto','Arial' sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "kern" 1;
+    color: #333;
+    min-height: 100%;
+    margin: 0 auto;
+  }
+
+a {
+  font-weight: 700;
 }
 
-body{
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0em auto 1em auto;
+  padding: 1em;
+}
+
+.page-title {
+  display: flex;
+  font-family: 'Inconsolata', 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 3.25em;
+  line-height: 1.25em;
+  color: #333;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
+
+.top-summary, .mid-summary, .third-summary {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto 2em auto;
+  max-width: 700px;
+  line-height: 2em;
+  font-size: 1.15em;
+  padding: 1em;
 }
 
 svg{
-  background-color: whitesmoke;
+  background-color: #0D1321;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 #canvas{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto 2em auto;
+  min-height: 650px;
   min-width: 1000px;
-  min-height: 600px
+}
+
+.county:hover{
+    fill: black
+}
+
+g{
+    color: #F5FBEF
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #F5FBEF;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    max-width: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#title{
+    font-size: 28px;
+    color: #F5FBEF;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#description a{
+    text-decoration: none;
+    color: #F5FBEF;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#rightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
 }
