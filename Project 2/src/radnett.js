@@ -33,7 +33,7 @@ d3.json("map_data_topo.json").then(
 			console.log(error);
 		}else{
 			rawNorwayData = topojson.feature(data, data.objects.collection);
-			projection = d3.geoMercator().fitSize([970, 620], rawNorwayData); //TODO: Resize canvas
+			projection = d3.geoMercator().fitSize([970, 620], rawNorwayData);
 			path = d3.geoPath().projection(projection);
 			
 			norwayData = topojson.feature(data, data.objects.collection).features;
