@@ -9,19 +9,30 @@
     <script src="https://unpkg.com/topojson@3"></script>
 </head>
 <body>
-    <h1 class="page-title">Radiation levels in a week intervall <br/> obtained from norwegian government data<br/></h1>
+    <h1 class="page-title">Radiation levels in a week intervall <br/> obtained from <br/> norwegian government data<br/></h1>
     <div class="top-summary">
         <p>Radiation level monitoring became of major importance after the Chernobyl events of 1986 and more so after the Fukushima events of 2011. 
             The Norwegian government, as well as the Swedish, Danish and Finnish governments, 
             monitors radiation levels throughout the country on a daily basis throughout various monitoring stations.
             Attention to this issue has increased starting from 22/23 June 2020, when monitoring stations detected abnormal 
-            levels of cesium-134, cesium-137, cobalt-60 and ruthenium-103 
-            <a href= 'https: / /www.sciencealert.com/unexpected-radiation-spike-detected-over-europe-authorities-say' target = "_blank">(source)</a> 
+            levels of several radiactive elements like cesium-134, cesium-137, cobalt-60 and ruthenium-103 
+            <a href= 'https://www.sciencealert.com/unexpected-radiation-spike-detected-over-europe-authorities-say'>(source)</a> 
             in the North and Norwegian sea.
           </p>
-          <p>Description of project.</p>
-          <p> Information about data source.</p>
+          <p>The following set of visualizations utilize radiation data derived from DSA Norwegian Radiation and Nuclear Safety Authority. Each daily data has been aggregated by each county <br/> 
+            showing the daily radiation change on a two week range of observation. The data is taken <br/> 
+            directly from the DSA Open Data, carefully engineered and later visualized. <br/>
+          </p>
+          <p>For more information about the data used in this visualization project, the data is stored on <a href="https://github.com/AndreaGiorgi/InfoVis-Projects/tree/main/Project%202">Github</a> alongside with the source code.</p>
         </div>
+    <div id = 'title'>
+        <p class="summary">Examine the radiation levels change by a two weeks intervall:</p>
+        <button *ngIf=!play (click)="playButton()" mat-mini-fab color="warn" id="play" aria-label="Example icon button with a menu icon">
+            <mat-icon>play_arrow</mat-icon>
+            </button>
+            <button *ngIf=refresh (click)="refreshButton()" mat-mini-fab color="warn" id="refresh" aria-label="Example icon button with a menu icon">
+              <mat-icon>refresh</mat-icon>
+            </button>
 <div id = canvas-div style="text-align: center"><svg id='canvas'></svg></div>
 
 </body>
