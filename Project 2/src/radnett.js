@@ -38,7 +38,8 @@ let drawMap = () => {
 
 let transitionMap = (index, data) => {
 
-	const svg = d3.select('.canvas');
+	const svg = d3.select('#canvas');
+	
 	svg.selectAll('path')
 		.data(data)
 		.transition()
