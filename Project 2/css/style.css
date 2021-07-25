@@ -7,32 +7,51 @@
   background-color: #F5FBEF;
 }
 
-html, body{
-    font-family: 'Montserrat', 'Roboto','Arial' sans-serif;
-    background-color: #F5FBEF;
-    text-rendering: optimizeLegibility;
-    -webkit-font-feature-settings: "kern" 1;
-    color: #333;
-    min-height: 100%;
-    margin: 0 auto;
-  }
+html, body {
+  font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
+  color: #333;
+}
 
 a {
   font-weight: 700;
 }
 
-.page-title {
+.canvas {
   display: flex;
-  font-family: 'Inconsolata', 'Roboto', 'Arial', sans-serif;
   text-align: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 3.25em;
-  line-height: 1.25em;
-  color: #333;
-  padding-top: 2.5em;
-  padding-bottom: 1em;
-  margin: 0 auto;
+  flex-direction: column;
+  margin: 0 auto 2em auto;
+  min-height: 620px;
+  min-width: 970px;
+}
+
+svg{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto 2em auto;
+  min-height: 620px;
+  min-width: 970px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.page-title {
+    display: flex;
+    font-family: 'Inconsolata', 'Roboto', 'Arial', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3.25em;
+    line-height: 1.25em;
+    color: #333;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+    margin: 0 auto;
 }
 
 .top-summary, .mid-summary, .third-summary {
@@ -45,27 +64,22 @@ a {
   padding: 1em;
 }
 
-svg{
-  padding: 10px;
-  border-radius: 5px;
+.strong-weight {
+  font-weight: 500;
 }
 
-#canvas{
-  text-align: center;
+.scenario-div {
+  margin: 2em auto 2em auto;
+  display: flex;
   justify-content: center;
-  flex-direction: column;
-  margin: 0 auto 2em auto;
-  min-height: 620px;
-  min-width: 970px;
+  max-width: 550px;
+  padding: 2em;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  background: #fff;
+  border: 1px solid #cccccc;
 }
 
-.county:hover{
-    fill: black
-}
-
-g{
-    color: #F5FBEF
-}
 
 #title {
   display: flex;
@@ -76,27 +90,6 @@ g{
   margin: 0em auto 1em auto;
   padding: 1em;
 }
-
-#tooltip{
-    visibility: hidden;
-    height: auto;
-    width: auto;
-    margin-top: 2px;
-    color: #F5FBEF;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-#legend{
-    color: rgb(56, 58, 74);
-    font-size: 18px;
-    text-align: center;
-    min-height: 150px;
-    max-width: 180px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
 
 .title-tag {
   display: flex;
@@ -132,10 +125,10 @@ ul {
   margin: auto;
 }
 
-.svg-tempscale {
+.svg-radscale {
   display: flex;
   margin: 0.5em auto;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .button-div {
@@ -149,7 +142,6 @@ button {
   box-shadow: none !important;
 }
 
-
 .mat-slider-horizontal {
   height: 48px;
   min-width: 250px;
@@ -160,73 +152,36 @@ button {
 
 
 .section-title {
-text-align: center;
-font-weight: 700;
-font-family: 'Inconsolata', 'Roboto', 'Arial', sans-serif;
-padding: 0.75em;
-max-width: 650px;
-margin: auto;
-font-size: 2em !important;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Inconsolata', 'Roboto', 'Arial', sans-serif;
+  padding: 0.75em;
+  max-width: 650px;
+  margin: auto;
+  font-size: 2em !important;
 }
 
-
 .summary {
-margin: 0 auto 1.5em auto;
-max-width: 600px;
-padding: 1em;   
-line-height: 1.65em;
+  margin: 0 auto 1.5em auto;
+  max-width: 600px;
+  padding: 1em;   
+  line-height: 1.65em;
 }
 
 .chart-title {
-text-align: left;
-font-weight: 500;
-margin: 0 auto;
-color: #666666;
-max-width: 500px;
-padding-left: 1em;
-font-size: 0.95em;
+  text-align: left;
+  font-weight: 500;
+  margin: 0 auto;
+  color: #666666;
+  max-width: 500px;
+  padding-left: 1em;
+  font-size: 0.95em;
 }
 
-.country-wrapper {
-display: flex;
-justify-content: space-evenly;
-max-width: 600px;
-margin: auto;
-}
 
 .line-wrapper {
-display: flex;
-justify-content: center;
-max-width: 700px;
-align-self: center;
-}
-
-.geopolitics-display {
-display: flex;
-justify-content: space-evenly;
-max-width: 1000px;
-margin: 2em auto;
-height: 370px;
-align-items: center;
-border: 1px solid #ddd;
-}
-
-.projection-country {
-font-weight: 600; 
-color: #333;
-font-size: 1.5em !important;
-margin: 0.75em 0 1em 0 !important;
-}
-
-.projection-title {
-color: #666666;
-font-weight: 600;
-margin-bottom: 0.25em;
-}
-
-.projection-summary {
-display: flex;
-flex-direction: column;
-margin: 0.25em auto 1em auto;
-line-height: 1.5em;
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  align-self: center;
 }

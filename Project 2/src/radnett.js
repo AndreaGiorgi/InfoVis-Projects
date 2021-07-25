@@ -1,12 +1,21 @@
 
 let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
+let lineChartData //Storage for linecharts data
 let canvas = d3.select('#canvas') //D3 selection
 let projection
 let path
 
+let play = false;
+let progress = false;
+let refresh = false;
+
+
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.125, 0.130];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
+
+/*TODO: ADD ANIMATION AND BUTTON START EVENT*/
+
 
 let drawMap = () => {
    
@@ -27,10 +36,13 @@ let drawMap = () => {
 		.classed('svg-content-responsive', true);
 }
 
+/*TODO: ADD DATA AND TEST */
+
+
 let drawLineCharts = () => {
 
 	const margin = {top: 10, right: 10, bottom: 10, left: 10};
-	const data = norwayData;
+	const data = lineChartData;
 	const yheight = 200;
 	const height = 300;
 
@@ -41,10 +53,68 @@ let drawLineCharts = () => {
 	const y = d3.scaleLinear().range([yheight, 0]).nice();
 	y.domain([0, 0.200]);
 
-	const valueline = d3.line().x(function(d) { return x(parseTime(d.date)); }).y(function(d) { return y(d.properties.average_radiation_value) + margin.top + margin.bottom; })
+	const valueline = d3.line().x(function(d) { return x(parseTime(d.date)); }).y(function(d) { return y(d.average_radiation_value) + margin.top + margin.bottom; })
 	.curve(d3.curveMonotoneX);
 
+	const svg = d3.select('.line-wrapper').append('svg')
+	.attr('width',  width - margin.left - margin.right + 30)
+	.attr('height', height - margin.top - margin.bottom)
+	.attr('x', 0)
+	.attr('y', 0)
+	.attr('class', 'jumbo')
+	.append('g')
+	.attr('transform', 'translate(' + graphShift + ', 0)')
+
+	svg.append('g')
+	.attr("class", "y-axis")
+	.attr("transform", "translate(0," + (margin.top + margin.bottom) + ")")
+	.call(d3.axisLeft(y).ticks(5).tickSizeOuter(0).tickFormat(d => d  + 'µSv/h'));
+
+	svg.append('g')
+		.attr("class", "x-axis")
+		.attr("transform", "translate(0," + (yheight + margin.top + margin.bottom) + ")")
+		.call(d3.axisBottom(x).ticks(14).tickSizeOuter(1));
+
+	d3.select('.x-axis .tick:first-child').remove()
+
+	const path = svg.append('path')
+	.datum(data)
+	.attr('class', 'line')
+	.attr('fill', 'none')
+	.attr('stroke-width', '3px')
+	.attr('stroke', '#de2d26')
+	.attr('d', valueline);
+
 }
+
+playButton = () => {
+
+    this.play = true;
+    this.progress = true;
+    let time = 1;
+
+    let interval = setInterval(() => { 
+      if (time <= 3) { 
+          this.transitionMap(this.jsons, time)
+          time++;
+      }
+      else { 
+          clearInterval(interval);
+          this.progress = false;
+          this.refresh = true;
+      }
+    }, 2000);
+
+  }
+
+ refreshButton = () => {
+
+    d3.select('svg').remove();
+    drawMap();
+
+    this.play = false;
+    this.refresh = false;
+  }
 
 d3.json("map_data_topo_1617-07.json").then(
 	(data, error) => {
@@ -59,7 +129,16 @@ d3.json("map_data_topo_1617-07.json").then(
 			console.log(norwayData);
 
 			drawMap();
-		}
-	}
 
-)
+			/*d3.json("linechart_data.json").then(
+				(data, error) => {
+					if(error) {
+						console.log(error)
+					} else {
+						lineChartData = data;
+						drawLineCharts();
+					}
+		});*/
+	 }
+	}
+);
