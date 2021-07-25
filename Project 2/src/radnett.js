@@ -36,6 +36,67 @@ let drawMap = () => {
 		.classed('svg-content-responsive', true);
 }
 
+let transitionMap = (index, data) => {
+
+	const svg = d3.select('.canvas');
+	svg.selectAll('path')
+		.data(data)
+		.transition()
+		.delay(100)
+		.duration(1000)
+		.attr('fill', (d) => {
+			const value = d['properties']['average_radiation_value'];
+			if (value) {
+			  return color_legend(d['properties']['average_radiation_value']);
+			} else {
+				return '#ccc';}
+			})
+		.classed('svg-content-responsive', true);
+
+}
+
+
+playButton = () => {
+
+    this.play = true;
+    this.progress = true;
+    let time = 1;
+	var transition_data;
+
+    let interval = setInterval(() => { 
+      if (time <= 13) { 
+		d3.json(norawayDatasets[i]).then(
+			(data, error) => {
+				if (error) {
+					console.log(error);
+				}else{
+					rawData = topojson.feature(data, data.objects.map_data_topo);
+					projection = d3.geoMercator().fitSize([970, 620], rawNorwayData);
+					path = d3.geoPath().projection(projection);
+					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
+
+					this.transitionMap(time, transition_data)
+					time++;
+			}})}
+      else { 
+          clearInterval(interval);
+          this.progress = false;
+          this.refresh = true;
+      }
+    }, 2000);
+
+  }
+
+ refreshButton = () => {
+
+    d3.select('svg').remove();
+    drawMap();
+
+    this.play = false;
+    this.refresh = false;
+  }
+
+
 /*TODO: ADD DATA AND TEST */
 
 
@@ -86,35 +147,6 @@ let drawLineCharts = () => {
 	.attr('d', valueline);
 
 }
-
-playButton = () => {
-
-    this.play = true;
-    this.progress = true;
-    let time = 1;
-
-    let interval = setInterval(() => { 
-      if (time <= 3) { 
-          this.transitionMap(this.jsons, time)
-          time++;
-      }
-      else { 
-          clearInterval(interval);
-          this.progress = false;
-          this.refresh = true;
-      }
-    }, 2000);
-
-  }
-
- refreshButton = () => {
-
-    d3.select('svg').remove();
-    drawMap();
-
-    this.play = false;
-    this.refresh = false;
-  }
 
 d3.json("map_data_topo_1617-07.json").then(
 	(data, error) => {
