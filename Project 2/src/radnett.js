@@ -6,16 +6,8 @@ let canvas = d3.select('#canvas') //D3 selection
 let projection
 let path
 
-let play = false;
-let progress = false;
-let refresh = false;
-
-
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.125, 0.130];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
-
-/*TODO: ADD ANIMATION AND BUTTON START EVENT*/
-
 
 let drawMap = () => {
    
@@ -36,10 +28,10 @@ let drawMap = () => {
 		.classed('svg-content-responsive', true);
 }
 
-let transitionMap = (index, data) => {
+let transitionMap = (data) => {
 
 	const svg = d3.select('#canvas');
-	
+
 	svg.selectAll('path')
 		.data(data)
 		.transition()
@@ -59,8 +51,6 @@ let transitionMap = (index, data) => {
 
 playButton = () => {
 
-    this.play = true;
-    this.progress = true;
     let time = 1;
 	var transition_data;
 
@@ -76,13 +66,11 @@ playButton = () => {
 					path = d3.geoPath().projection(projection);
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
-					this.transitionMap(time, transition_data)
+					this.transitionMap(transition_data)
 					time++;
 			}})}
       else { 
           clearInterval(interval);
-          this.progress = false;
-          this.refresh = true;
       }
     }, 2000);
 
@@ -92,9 +80,6 @@ playButton = () => {
 
     d3.select('svg').remove();
     drawMap();
-
-    this.play = false;
-    this.refresh = false;
   }
 
 
