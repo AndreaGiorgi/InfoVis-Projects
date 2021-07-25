@@ -31,7 +31,6 @@ let drawMap = () => {
 let transitionMap = (data) => {
 
 	const svg = d3.select('#canvas');
-
 	svg.selectAll('path')
 		.data(data)
 		.transition()
@@ -53,7 +52,6 @@ playButton = () => {
 
     let time = 1;
 	var transition_data;
-
     let interval = setInterval(() => { 
       if (time <= 13) { 
 		d3.json(norawayDatasets[i]).then(
@@ -73,11 +71,10 @@ playButton = () => {
           clearInterval(interval);
       }
     }, 2000);
-
   }
 
  refreshButton = () => {
-
+	 
     d3.select('svg').remove();
     drawMap();
   }
