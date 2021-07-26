@@ -1,7 +1,7 @@
 let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
 let lineChartData //Storage for linecharts data
-let canvas = d3.select('#canvas') //D3 selection
+let svg = d3.select('#canvas') //D3 selection
 
 let projection
 let path
@@ -14,7 +14,7 @@ const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','d
 
 let drawMap = () => {
    
-	canvas.selectAll('path')
+	svg.selectAll('path')
 		.data(norwayData)
 		.enter()
 		.append('path')
@@ -33,7 +33,6 @@ let drawMap = () => {
 
 let transitionMap = (data) => {
 
-	const svg = d3.select('#canvas');
 	svg.selectAll('path')
 		.data(data)
 		.transition()
@@ -53,6 +52,7 @@ let transitionMap = (data) => {
 
 playButton = () => {
 
+	console.log("ok");
     let time = 1;
 	var transition_data;
     let interval = setInterval(() => { 
@@ -77,9 +77,7 @@ playButton = () => {
   }
 
  refreshButton = () => {
-	 
-    d3.select('svg').remove();
-    drawMap();
+    transitionMap(norwayData)
   }
 
 

@@ -28,7 +28,10 @@
           <p>For more information about the data used in this visualization project, the data is stored on <a href="https://github.com/AndreaGiorgi/InfoVis-Projects/tree/main/Project%202">Github</a> alongside with the source code.</p>
         </div>
     <div id = 'title'>
-        <p class="summary">Examine the radiation levels change by a two weeks intervall:</p></div> 
+        <p class="summary">Examine the radiation levels change by a two weeks intervall:</p>
+        <button onclick= "playButton()"><img class = 'button' src = 'data/svg_elements/play-button.svg'></button>
+        <button onclick= "refreshButton()"><img class = 'button' src = 'data/svg_elements/replay-button.svg'></button>
+    </div> 
 <div id = legend_div style="text-align: center"><img class='svg-radscale' src="data/svg_elements/legend.svg"></div>
 <div id = canvas-div style="text-align: center"><svg id='canvas'></svg></div>
 
