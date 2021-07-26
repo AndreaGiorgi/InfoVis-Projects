@@ -1,13 +1,16 @@
-
 let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
 let lineChartData //Storage for linecharts data
 let canvas = d3.select('#canvas') //D3 selection
+
 let projection
 let path
 
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.125, 0.130];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
+
+const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
+	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json'];
 
 let drawMap = () => {
    
@@ -54,7 +57,7 @@ playButton = () => {
 	var transition_data;
     let interval = setInterval(() => { 
       if (time <= 13) { 
-		d3.json(norawayDatasets[i]).then(
+		d3.json(norwayDatasets[i]).then(
 			(data, error) => {
 				if (error) {
 					console.log(error);
@@ -131,7 +134,7 @@ let drawLineCharts = () => {
 
 }
 
-d3.json("map_data_topo_1617-07.json").then(
+d3.json(norwayDatasets[0]).then(
 	(data, error) => {
 		if (error) {
 			console.log(error);
