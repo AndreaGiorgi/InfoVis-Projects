@@ -41,8 +41,8 @@ let transitionMap = (data, time) => {
 	svg.selectAll('path')
 		.data(data)
 		.transition()
-		.delay(250)
-		.duration(1500)
+		.delay(300)
+		.duration(2000)
 		.attr('fill', (d) => {
 			const value = d['properties']['average_radiation_value'];
 			if (value) {
@@ -50,7 +50,6 @@ let transitionMap = (data, time) => {
 			} else {
 				return '#ccc';}
 			});
-
 }
 
 
@@ -77,10 +76,9 @@ playButton = () => {
           clearInterval(interval);
       }
     }, 2000);
-  }
 
- refreshButton = () => {
-    transitionMap(norwayData)
+	setTimeout(() => {transitionMap(norwayData);}, 5000);
+
   }
 
 

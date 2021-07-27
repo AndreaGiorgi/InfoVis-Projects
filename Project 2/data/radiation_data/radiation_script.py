@@ -2,12 +2,11 @@ import json
 
 def main():
     
-    with open('radnett_data_1819-07-2021.json') as jsonFile:
+    counties = {}
+    
+    with open('radnett_data_2122-07-2021.json') as jsonFile:
         jsonObject = json.load(jsonFile)
         jsonFile.close()
-        
-    
-    print(jsonObject[0])
     
     for index in range(33):
         station = jsonObject[index]['location']
@@ -20,7 +19,6 @@ def main():
         
         average = total_value/24
         average_daily_value = "{:.3f}".format(average)
-        
         print(station + " " + county + "  value: " + average_daily_value)
         
     

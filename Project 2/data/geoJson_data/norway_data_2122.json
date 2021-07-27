@@ -17120,7 +17120,7 @@
         "county_id": 0,
         "county_name": "Nordland",
         "county_capital": "Bodø",
-        "average_radiation_value": "0.120"
+        "average_radiation_value": 0.097
       }
     },
     {
@@ -22154,7 +22154,7 @@
         "county_id": 2,
         "county_name": "Møre og Romsdal",
         "county_capital": "Molde",
-        "average_radiation_value": 0.096
+        "average_radiation_value": 0.095
       }
     },
     {
@@ -24932,7 +24932,7 @@
         "county_id": 3,
         "county_name": "Rogaland",
         "county_capital": "Stavnger",
-        "average_radiation_value": 0.125
+        "average_radiation_value": 0.127
       }
     },
     {
@@ -25168,7 +25168,7 @@
         "county_id": 4,
         "county_name": "Oslo",
         "county_capital": "Oslo",
-        "average_radiation_value": 0.131
+        "average_radiation_value": 0.133
       }
     },
     {
@@ -42974,7 +42974,7 @@
         "county_id": 5,
         "county_name": "Troms og Finnmark",
         "county_capital": "Trømso",
-        "average_radiation_value": 0.083
+        "average_radiation_value": 0.082
       }
     },
     {
@@ -44402,7 +44402,7 @@
         "county_id": 6,
         "county_name": "Innlandet",
         "county_capital": "Hamar",
-        "average_radiation_value": 0.1114
+        "average_radiation_value": "0.115 "
       }
     },
     {
@@ -62226,7 +62226,7 @@
         "county_id": 8,
         "county_name": "Trøndelag",
         "county_capital": "Steinkjer",
-        "average_radiation_value": 0.087
+        "average_radiation_value": "0.080"
       }
     },
     {
@@ -64612,7 +64612,7 @@
         "county_id": 9,
         "county_name": "Viken",
         "county_capital": "Oslo",
-        "average_radiation_value": 0.149
+        "average_radiation_value": 0.135
       }
     },
     {
@@ -66754,7 +66754,7 @@
         "county_id": 10,
         "county_name": "Agder",
         "county_capital": "Kristiansand",
-        "average_radiation_value": 0.091
+        "average_radiation_value": 0.093
       }
     },
     {
@@ -68600,7 +68600,7 @@
         "county_id": 11,
         "county_name": "Vestfold og Telemark",
         "county_capital": "Skien",
-        "average_radiation_value": 0.123
+        "average_radiation_value": 0.122
       }
     }
   ]
