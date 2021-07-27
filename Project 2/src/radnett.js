@@ -87,16 +87,54 @@ playButton = () => {
 
 let drawLineCharts = () => {
 
-	var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+	const margin = {top: 30, right: 0, bottom: 30, left: 50},
+    width = 210 - margin.left - margin.right,
+    height = 210 - margin.top - margin.bottom;
 
-	svg = d3.select("#linechart")
-		.append("svg")
-		.attr("width", width + margin.left + margin.right)
-		.attr("height", height + margin.top + margin.bottom)
-		.append("g")
-		.attr("transform","translate(" + margin.left + "," + margin.top + ")");
+	d3.csv("path").then(
+		(data,error) => {
+			if (error) {
+				console.log(error);
+			}else{
+				const sumstat = d3.group(data, d => d.county)
+				allCounties = new Set(data.map(d=>d.county))
+
+				const svg = d3.select('#smallMultiplies')
+					.selectAll("unique")
+					.data(sumstat)
+					.enter()
+					.append("svg")
+						.attr("width", width + margin.left + margin.right)
+						.attr("height", height + margin.top + margin.bottom)
+				  	.append("g")
+					.	attr("transform",`translate(${margin.left},${margin.top})`);
+
+				// Add X axis --> it is a date format
+				const x = d3.scaleLinear().domain(d3.extent(data, function(d) { return d.date; })).range([ 0, width ]);
+				svg.append("g").attr("transform", `translate(0, ${height})`).call(d3.axisBottom(x).ticks(14));
+
+				const y = d3.scaleLinear().domain([0, 0.150]).range([ height, 0 ]);
+				svg.append("g").call(d3.axisLeft(y).ticks(7));
+
+				const colorscale = d3.scaleOrdinal().range(["#03071E", "#370617", "#6A040F", "#9D0208","# B70104", "#D00000", "#DC2F02", "#E85D04",
+				"#F48C06", "#FAA307", "#FFBA08"]);
+
+				svg.append("path")
+					.attr("fill", "none")
+					.attr("stroke", (d) => {return colorscale(d[0])})
+					.attr("stroke-width", 1.9)
+					.attr("d", (d) => {
+						return d3.line().x((d) => { return d.date}).y((d) => { return +d.value})(d[1])
+					});
+				
+				svg.append("text")
+					.attr("text-anchor", "start")
+					.attr("y", -5)
+					.attr("x", 0)
+					.text(function(d){ return(d[0])})
+					.style("fill", function(d){ return colorscale(d[0]) })
+
+		}})
 }
 		
 d3.json(norwayDatasets[0]).then(
