@@ -1,0 +1,332 @@
+[
+	{
+	  "day": 16,
+	  "county": "Nordland",
+	  "value": 0.0874
+	},
+	{
+	  "day": 16,
+	  "county": "Møre og Romsdal",
+	  "value": 0.108
+	},
+	{
+	  "day": 16,
+	  "county": "Rogaland",
+	  "value": 0.125
+	},
+	{
+	  "day": 16,
+	  "county": "Oslo",
+	  "value": 0.129
+	},
+	{
+	  "day": 16,
+	  "county": "Troms og Finnmark",
+	  "value": 0.084
+	},
+	{
+	  "day": 16,
+	  "county": "Innlandet",
+	  "value": 0.12
+	},
+	{
+	  "day": 16,
+	  "county": "Vestland",
+	  "value": 0.109
+	},
+	{
+	  "day": 16,
+	  "county": "Trøndelag",
+	  "value": 0.101
+	},
+	{
+	  "day": 16,
+	  "county": "Viken",
+	  "value": 0.129
+	},
+	{
+	  "day": 16,
+	  "county": "Agder",
+	  "value": 0.133
+	},
+	{
+	  "day": 16,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.123
+	},
+	{
+	  "day": 17,
+	  "county": "Nordland",
+	  "value": 0.120
+	},
+	{
+	  "day": 17,
+	  "county": "Møre og Romsdal",
+	  "value": 0.096
+	},
+	{
+	  "day": 17,
+	  "county": "Rogaland",
+	  "value": 0.125
+	},
+	{
+	  "day": 17,
+	  "county": "Oslo",
+	  "value": 0.131
+	},
+	{
+	  "day": 17,
+	  "county": "Troms og Finnmark",
+	  "value": 0.083
+	},
+	{
+	  "day": 17,
+	  "county": "Innlandet",
+	  "value": 0.111
+	},
+	{
+	  "day": 17,
+	  "county": "Vestland",
+	  "value": 0.114
+	},
+	{
+	  "day": 17,
+	  "county": "Trøndelag",
+	  "value": 0.087
+	},
+	{
+	  "day": 17,
+	  "county": "Viken",
+	  "value": 0.149
+	},
+	{
+	  "day": 17,
+	  "county": "Agder",
+	  "value": 0.091
+	},
+	{
+	  "day": 17,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.123
+	},
+	{
+	  "day": 18,
+	  "county": "Nordland",
+	  "value": 0.083
+	},
+	{
+	  "day": 18,
+	  "county": "Møre og Romsdal",
+	  "value": 0.115
+	},
+	{
+	  "day": 18,
+	  "county": "Rogaland",
+	  "value": 0.127
+	},
+	{
+	  "day": 18,
+	  "county": "Oslo",
+	  "value": 0.131
+	},
+	{
+	  "day": 18,
+	  "county": "Troms og Finnmark",
+	  "value": 0.242
+	},
+	{
+	  "day": 18,
+	  "county": "Innlandet",
+	  "value": 0.113
+	},
+	{
+	  "day": 18,
+	  "county": "Vestland",
+	  "value": 0.113
+	},
+	{
+	  "day": 18,
+	  "county": "Trøndelag",
+	  "value": 0.096
+	},
+	{
+	  "day": 18,
+	  "county": "Viken",
+	  "value": 0.133
+	},
+	{
+	  "day": 18,
+	  "county": "Agder",
+	  "value": 0.092
+	},
+	{
+	  "day": 18,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.121
+	},
+	{
+	  "day": 19,
+	  "county": "Nordland",
+	  "value": 0.084
+	},
+	{
+	  "day": 19,
+	  "county": "Møre og Romsdal",
+	  "value": 0.096
+	},
+	{
+	  "day": 19,
+	  "county": "Rogaland",
+	  "value": 0.128
+	},
+	{
+	  "day": 19,
+	  "county": "Oslo",
+	  "value": 0.132
+	},
+	{
+	  "day": 19,
+	  "county": "Troms og Finnmark",
+	  "value": 0.084
+	},
+	{
+	  "day": 19,
+	  "county": "Innlandet",
+	  "value": 0.114
+	},
+	{
+	  "day": 19,
+	  "county": "Vestland",
+	  "value": 0.114
+	},
+	{
+	  "day": 19,
+	  "county": "Trøndelag",
+	  "value": 0.085
+	},
+	{
+	  "day": 19,
+	  "county": "Viken",
+	  "value": 0.134
+	},
+	{
+	  "day": 19,
+	  "county": "Agder",
+	  "value": 0.092
+	},
+	{
+	  "day": 19,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.122
+	},
+	{
+	  "day": 20,
+	  "county": "Nordland",
+	  "value": 0.096
+	},
+	{
+	  "day": 20,
+	  "county": "Møre og Romsdal",
+	  "value": 0.095
+	},
+	{
+	  "day": 20,
+	  "county": "Rogaland",
+	  "value": 0.127
+	},
+	{
+	  "day": 20,
+	  "county": "Oslo",
+	  "value": 0.131
+	},
+	{
+	  "day": 20,
+	  "county": "Troms og Finnmark",
+	  "value": 0.083
+	},
+	{
+	  "day": 20,
+	  "county": "Innlandet",
+	  "value": 0.114
+	},
+	{
+	  "day": 20,
+	  "county": "Vestland",
+	  "value": 0.114
+	},
+	{
+	  "day": 20,
+	  "county": "Trøndelag",
+	  "value": 0.096
+	},
+	{
+	  "day": 20,
+	  "county": "Viken",
+	  "value": 0.134
+	},
+	{
+	  "day": 20,
+	  "county": "Agder",
+	  "value": 0.093
+	},
+	{
+	  "day": 20,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.122
+	},
+	{
+	  "day": 21,
+	  "county": "Nordland",
+	  "value": 0.097
+	},
+	{
+	  "day": 21,
+	  "county": "Møre og Romsdal",
+	  "value": 0.095
+	},
+	{
+	  "day": 21,
+	  "county": "Rogaland",
+	  "value": 0.127
+	},
+	{
+	  "day": 21,
+	  "county": "Oslo",
+	  "value": 0.133
+	},
+	{
+	  "day": 21,
+	  "county": "Troms og Finnmark",
+	  "value": 0.082
+	},
+	{
+	  "day": 21,
+	  "county": "Innlandet",
+	  "value": 0.115
+	},
+	{
+	  "day": 21,
+	  "county": "Vestland",
+	  "value": 0.114
+	},
+	{
+	  "day": 21,
+	  "county": "Trøndelag",
+	  "value": 0.08
+	},
+	{
+	  "day": 21,
+	  "county": "Viken",
+	  "value": 0.135
+	},
+	{
+	  "day": 21,
+	  "county": "Agder",
+	  "value": 0.093
+	},
+	{
+	  "day": 21,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.122
+	}
+  ]

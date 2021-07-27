@@ -11,6 +11,7 @@ html, body {
   font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern" 1;
+  -webkit-font-smoothing: antialiased;
   color: #333;
 }
 
@@ -24,11 +25,10 @@ a {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto 2em auto;
-  min-height: 550px;
+  min-height: 620px;
   min-width: 970px;
 }
-
-svg{
+/*svg{
   display: flex;
   text-align: center;
   justify-content: center;
@@ -38,6 +38,30 @@ svg{
   min-width: 970px;
   padding: 10px;
   border-radius: 5px;
+}*/
+
+.norway-map{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto 2em auto;
+    min-height: 620px;
+    min-width: 970px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.small-multiplies{
+  display: inline-flex;
+  margin: 0 auto 2em auto;
+  min-height: 350px;
+  width: 100%;
+}
+
+.selectButton{
+  display: flex;
+  margin: 0 auto 2em auto;
 }
 
 .page-title {
@@ -68,19 +92,6 @@ svg{
   font-weight: 500;
 }
 
-.scenario-div {
-  margin: 2em auto 2em auto;
-  display: flex;
-  justify-content: center;
-  max-width: 550px;
-  padding: 2em;
-  font-size: 1.25em;
-  line-height: 1.5em;
-  background: #fff;
-  border: 1px solid #cccccc;
-}
-
-
 #title {
   display: flex;
   align-items: center;
@@ -106,10 +117,6 @@ svg{
   font-weight: 700;
 }
 
-.highlight-scenario {
-  font-weight: 700;
-}
-
 .conditions {
   list-style-type: disc !important;
   list-style-position: outside !important;
@@ -129,31 +136,13 @@ ul {
   display: flex;
   margin: 0.5em auto;
   max-width: 500px;
-  max-height: 95px;
-}
- 
-
-.button-div {
-  display: inline-block;
-  margin: auto;
-  justify-content: space-between;
-  max-width: 150px;
+  max-height: 110px;
 }
 
 .play-button {
-  width: 40px;
-  height: 35px;
-  display: inline-block;
-  background-size: 40px 35px; 
-  background:  url("./data/svg_elements/play.svg") no-repeat center center fixed;
-}
-
-.replay-button {
-  width: 40px;
-  height: 35px;
-  display: inline-block;
-  background-size: 40px 35px; 
-  background:  url("./data/svg_elements/replay.svg") no-repeat center center fixed;
+  width: 50px;
+  height: 45px;
+  display: flex;
 }
 
 .section-title {
@@ -171,16 +160,6 @@ ul {
   max-width: 600px;
   padding: 1em;   
   line-height: 1.65em;
-}
-
-.chart-title {
-  text-align: left;
-  font-weight: 500;
-  margin: 0 auto;
-  color: #666666;
-  max-width: 500px;
-  padding-left: 1em;
-  font-size: 0.95em;
 }
 
 .line-wrapper {
