@@ -2,7 +2,7 @@
    {
       "name": "Longyearbyen",
       "location": "Longyearbyen",
-	  "county": "Svalbard",
+	   "county": "Svalbard",
       "lat": "78.27",
       "lon": "15.49",
       "url": "https://radnett.dsa.no/?id=165049",
@@ -5342,7 +5342,7 @@
    {
       "name": "Stavanger",
       "location": "Stavanger",
-      "county": "Vestfold",
+      "county": "Rogaland",
       "lat": "58.96",
       "lon": "5.73",
       "url": "https://radnett.dsa.no/?id=365049",

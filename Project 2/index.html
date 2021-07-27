@@ -29,12 +29,10 @@
         </div>
     <div id = 'title'>
         <p class="summary">Examine the radiation levels change by a two weeks intervall:</p>
-        <button onclick= "playButton()"><img class = 'button' src = 'data/svg_elements/play-button.svg'></button>
-        <button onclick= "refreshButton()"><img class = 'button' src = 'data/svg_elements/replay-button.svg'></button>
-    </div> 
+        <img class = "play-button" onclick= "playButton()" src="data/svg_elements/play-button.svg"></img>
+    </div>
 <div id = legend_div style="text-align: center"><img class='svg-radscale' src="data/svg_elements/legend.svg"></div>
 <div id = canvas-div style="text-align: center"><svg id='canvas'></svg></div>
-
 </body>
 <script src="src/radnett.js"></script>
 </html>

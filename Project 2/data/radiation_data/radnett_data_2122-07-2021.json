@@ -1,0 +1,5876 @@
+[
+   {
+      "name": "Longyearbyen",
+      "location": "Longyearbyen",
+      "county": "Svalbard",
+      "lat": "78.27",
+      "lon": "15.49",
+      "url": "https://radnett.dsa.no/?id=165049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.097"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.097"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.099"
+         }
+      ]
+   },
+   {
+      "name": "Mehamn",
+      "location": "Mehamn",
+      "county": "Troms og Finnmark",
+      "lat": "71.03",
+      "lon": "27.83",
+      "url": "https://radnett.dsa.no/?id=205049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.083"
+         }
+      ]
+   },
+   {
+      "name": "Hammerfest",
+      "location": "Hammerfest",
+      "county": "Troms og Finnmark",
+      "lat": "70.67",
+      "lon": "23.67",
+      "url": "https://radnett.dsa.no/?id=195049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.081"
+         }
+      ]
+   },
+   {
+      "name": "Vardø",
+      "location": "Vardø",
+      "county": "Troms og Finnmark",
+      "lat": "70.37",
+      "lon": "30.91",
+      "url": "https://radnett.dsa.no/?id=145049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.081"
+         }
+      ]
+   },
+   {
+      "name": "Sørkjosen",
+      "location": "Sørkjosen",
+      "county": "Troms og Finnmark",
+      "lat": "69.79",
+      "lon": "20.95",
+      "url": "https://radnett.dsa.no/?id=2705049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.075"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.075"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.074"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.077"
+         }
+      ]
+   },
+   {
+      "name": "Tromsø",
+      "location": "Tromsø",
+      "county": "Troms og Finnmark",
+      "lat": "69.65",
+      "lon": "18.94",
+      "url": "https://radnett.dsa.no/?id=185049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.070"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.067"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.070"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.070"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.070"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.070"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.071"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.071"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.073"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.070"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.070"
+         }
+      ]
+   },
+   {
+      "name": "Karasjok",
+      "location": "Karasjok",
+      "county": "Troms og Finnmark",
+      "lat": "69.61",
+      "lon": "25.30",
+      "url": "https://radnett.dsa.no/?id=155049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.075"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.078"
+         }
+      ]
+   },
+   {
+      "name": "Svanhovd",
+      "location": "Svanhovd",
+      "county": "Troms og Finnmark",
+      "lat": "69.46",
+      "lon": "30.04",
+      "url": "https://radnett.dsa.no/?id=225049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.067"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.062"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.067"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.069"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.067"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.068"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.064"
+         }
+      ]
+   },
+   {
+      "name": "Kautokeino",
+      "location": "Kautokeino",
+      "county": "Troms og Finnmark",
+      "lat": "69.02",
+      "lon": "23.02",
+      "url": "https://radnett.dsa.no/?id=2695049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.092"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.092"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.096"
+         }
+      ]
+   },
+   {
+      "name": "Harstad",
+      "location": "Harstad",
+      "county": "Troms og Finnmark",
+      "lat": "68.80",
+      "lon": "16.54",
+      "url": "https://radnett.dsa.no/?id=175049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.120"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.119"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.119"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.119"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.117"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.118"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.120"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.118"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.119"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.118"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.118"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.118"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.121"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.117"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.120"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.124"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.119"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.118"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.117"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.120"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.120"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.122"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.122"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.126"
+         }
+      ]
+   },
+   {
+      "name": "Svolvær",
+      "location": "Svolvær",
+      "county": "Nordland",
+      "lat": "68.24",
+      "lon": "14.57",
+      "url": "https://radnett.dsa.no/?id=2715049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.102"
+         }
+      ]
+   },
+   {
+      "name": "Bodø",
+      "location": "Bodø",
+      "county": "Nordland",
+      "lat": "67.27",
+      "lon": "14.39",
+      "url": "https://radnett.dsa.no/?id=305049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.102"
+         }
+      ]
+   },
+   {
+      "name": "Mo i Rana",
+      "location": "Mo i Rana",
+      "county": "Nordland",
+      "lat": "66.31",
+      "lon": "14.14",
+      "url": "https://radnett.dsa.no/?id=315049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.087"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.086"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.087"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.087"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.088"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.085"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.086"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.087"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.088"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.088"
+         }
+      ]
+   },
+   {
+      "name": "Brønnøysund",
+      "location": "Brønnøysund",
+      "county": "Trøndelag",
+      "lat": "65.46",
+      "lon": "12.22",
+      "url": "https://radnett.dsa.no/?id=325049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.062"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.061"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.062"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.062"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.062"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.062"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.061"
+         }
+      ]
+   },
+   {
+      "name": "Snåsa",
+      "location": "Snåsa",
+      "county": "Trøndelag",
+      "lat": "64.25",
+      "lon": "12.38",
+      "url": "https://radnett.dsa.no/?id=255049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.065"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.063"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.064"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.066"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.064"
+         }
+      ]
+   },
+   {
+      "name": "Trondheim",
+      "location": "Trondheim",
+      "county": "Trøndelag",
+      "lat": "63.41",
+      "lon": "10.47",
+      "url": "https://radnett.dsa.no/?id=235049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.092"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.092"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.092"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.095"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.093"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.094"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.094"
+         }
+      ]
+   },
+   {
+      "name": "Hitra",
+      "location": "Hitra",
+      "county": "Trøndelag",
+      "lat": "63.64",
+      "lon": "8.69",
+      "url": "https://radnett.dsa.no/?id=2725049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.096"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.098"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.097"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.099"
+         }
+      ]
+   },
+   {
+      "name": "Molde",
+      "location": "Molde",
+      "county": "Møre og Romsdal",
+      "lat": "62.76",
+      "lon": "7.21",
+      "url": "https://radnett.dsa.no/?id=335049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.085"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.086"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.085"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.086"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.086"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.085"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.085"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.086"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.082"
+         }
+      ]
+   },
+   {
+      "name": "Runde",
+      "location": "Runde",
+      "county": "Møre og Romsdal",
+      "lat": "58.56",
+      "lon": "8.98",
+      "url": "https://radnett.dsa.no/?id=1875049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.108"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.108"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.108"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.108"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.108"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.108"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.109"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.109"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.105"
+         }
+      ]
+   },
+   {
+      "name": "Dombås",
+      "location": "Dombås",
+      "county": "Innlandet",
+      "lat": "62.07",
+      "lon": "9.12",
+      "url": "https://radnett.dsa.no/?id=285049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.141"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.145"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.141"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.141"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.139"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.142"
+         }
+      ]
+   },
+   {
+      "name": "Drevsjø",
+      "location": "Drevsjø",
+      "county": "Innlandet",
+      "lat": "61.89",
+      "lon": "12.05",
+      "url": "https://radnett.dsa.no/?id=395049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.088"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.091"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.088"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.090"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.089"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.089"
+         }
+      ]
+   },
+   {
+      "name": "Førde",
+      "location": "Førde",
+      "county": "Vestland",
+      "lat": "61.45",
+      "lon": "5.85",
+      "url": "https://radnett.dsa.no/?id=345049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.111"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.117"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.111"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.117"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.116"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.116"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.114"
+         }
+      ]
+   },
+   {
+      "name": "Hamar",
+      "location": "Hamar",
+      "county": "Innlandet",
+      "lat": "60.82",
+      "lon": "11.07",
+      "url": "https://radnett.dsa.no/?id=265049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.116"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.111"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.111"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.110"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.110"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.111"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.111"
+         }
+      ]
+   },
+   {
+      "name": "Hol",
+      "location": "Hol",
+      "county": "Viken",
+      "lat": "60.58",
+      "lon": "8.41",
+      "url": "https://radnett.dsa.no/?id=385049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.157"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.159"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.159"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.160"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.157"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.160"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.157"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.160"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.161"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.161"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.160"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.159"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.162"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.160"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.159"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.158"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.156"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.158"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.158"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.157"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.158"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.156"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.157"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.159"
+         }
+      ]
+   },
+   {
+      "name": "Bergen",
+      "location": "Bergen",
+      "county": "Vestland",
+      "lat": "60.38",
+      "lon": "5.33",
+      "url": "https://radnett.dsa.no/?id=355049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.111"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.113"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.115"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.114"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.117"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.112"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.114"
+         }
+      ]
+   },
+   {
+      "name": "Kjeller",
+      "location": "Kjeller",
+      "county": "Viken",
+      "lat": "59.98",
+      "lon": "11.05",
+      "url": "https://radnett.dsa.no/?id=405049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.138"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.137"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.137"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.140"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.140"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.139"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.135"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.137"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.139"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.138"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.140"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.139"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.140"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.138"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.141"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.137"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.137"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.139"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.140"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.138"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.135"
+         }
+      ]
+   },
+   {
+      "name": "Oslo",
+      "location": "Oslo",
+      "county": "Oslo",
+      "lat": "59.94",
+      "lon": "10.72",
+      "url": "https://radnett.dsa.no/?id=215049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.132"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.136"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.134"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.135"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.135"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.132"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.131"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.129"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.131"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.132"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.134"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.132"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.131"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.133"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.136"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.131"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.134"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.132"
+         }
+      ]
+   },
+   {
+      "name": "Vinje",
+      "location": "Vinje",
+      "county": "Vestfold og Telemark",
+      "lat": "59.61",
+      "lon": "7.86",
+      "url": "https://radnett.dsa.no/?id=295049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.102"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.099"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.100"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.101"
+         }
+      ]
+   },
+   {
+      "name": "Halden",
+      "location": "Halden",
+      "county": "Viken",
+      "lat": "59.00",
+      "lon": "11.53",
+      "url": "https://radnett.dsa.no/?id=415049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.107"
+         }
+      ]
+   },
+   {
+      "name": "Stavern",
+      "location": "Stavern",
+      "county": "Vestfold og Telemark",
+      "lat": "58.99",
+      "lon": "10.03",
+      "url": "https://radnett.dsa.no/?id=245049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.145"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.146"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.141"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.146"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.140"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.138"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.144"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.143"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.141"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.142"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.142"
+         }
+      ]
+   },
+   {
+      "name": "Stavanger",
+      "location": "Stavanger",
+      "county": "Rogaland",
+      "lat": "58.96",
+      "lon": "5.73",
+      "url": "https://radnett.dsa.no/?id=365049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.128"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.128"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.125"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.128"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.129"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.130"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.130"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.126"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.126"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.128"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.128"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.130"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.131"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.129"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.128"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.129"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.127"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.127"
+         }
+      ]
+   },
+   {
+      "name": "Arendal",
+      "location": "Arendal",
+      "county": "Agder",
+      "lat": "0.00",
+      "lon": "0.00",
+      "url": "https://radnett.dsa.no/?id=275049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.084"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.083"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.082"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.077"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.076"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.081"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.080"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.079"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.078"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.077"
+         }
+      ]
+   },
+   {
+      "name": "Lista",
+      "location": "Lista",
+      "county": "Agder",
+      "lat": "58.12",
+      "lon": "6.57",
+      "url": "https://radnett.dsa.no/?id=375049",
+      "measurements": [
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T09:00:00Z",
+            "endtime": "2021-07-22T10:00:00Z",
+            "value": "0.107"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T08:00:00Z",
+            "endtime": "2021-07-22T09:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T07:00:00Z",
+            "endtime": "2021-07-22T08:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T06:00:00Z",
+            "endtime": "2021-07-22T07:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T05:00:00Z",
+            "endtime": "2021-07-22T06:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T04:00:00Z",
+            "endtime": "2021-07-22T05:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T03:00:00Z",
+            "endtime": "2021-07-22T04:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T02:00:00Z",
+            "endtime": "2021-07-22T03:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T01:00:00Z",
+            "endtime": "2021-07-22T02:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-22T00:00:00Z",
+            "endtime": "2021-07-22T01:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T23:00:00Z",
+            "endtime": "2021-07-22T00:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T22:00:00Z",
+            "endtime": "2021-07-21T23:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T21:00:00Z",
+            "endtime": "2021-07-21T22:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T20:00:00Z",
+            "endtime": "2021-07-21T21:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T19:00:00Z",
+            "endtime": "2021-07-21T20:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T18:00:00Z",
+            "endtime": "2021-07-21T19:00:00Z",
+            "value": "0.101"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T17:00:00Z",
+            "endtime": "2021-07-21T18:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T16:00:00Z",
+            "endtime": "2021-07-21T17:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T15:00:00Z",
+            "endtime": "2021-07-21T16:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T14:00:00Z",
+            "endtime": "2021-07-21T15:00:00Z",
+            "value": "0.103"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T13:00:00Z",
+            "endtime": "2021-07-21T14:00:00Z",
+            "value": "0.105"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T12:00:00Z",
+            "endtime": "2021-07-21T13:00:00Z",
+            "value": "0.104"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T11:00:00Z",
+            "endtime": "2021-07-21T12:00:00Z",
+            "value": "0.106"
+         },
+         {
+            "unit": "µSv/h",
+            "type": "T-GAMMA",
+            "starttime": "2021-07-21T10:00:00Z",
+            "endtime": "2021-07-21T11:00:00Z",
+            "value": "0.103"
+         }
+      ]
+   }
+]

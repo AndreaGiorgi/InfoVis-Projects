@@ -9,11 +9,14 @@ let path
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.125, 0.130];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
 
+const dateRange = ['16 Luglio 2021', '17 Luglio 2021']
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json'];
 
 let drawMap = () => {
    
+	titleTag = dateRange[0];
+
 	svg.selectAll('path')
 		.data(norwayData)
 		.enter()
@@ -31,43 +34,43 @@ let drawMap = () => {
 		.classed('svg-content-responsive', true);
 }
 
-let transitionMap = (data) => {
+let transitionMap = (data, time) => {
+
+	titleTag = dateRange[time];
 
 	svg.selectAll('path')
 		.data(data)
 		.transition()
-		.delay(100)
-		.duration(1000)
+		.delay(250)
+		.duration(1500)
 		.attr('fill', (d) => {
 			const value = d['properties']['average_radiation_value'];
 			if (value) {
 			  return color_legend(d['properties']['average_radiation_value']);
 			} else {
 				return '#ccc';}
-			})
-		.classed('svg-content-responsive', true);
+			});
 
 }
 
 
 playButton = () => {
 
-	console.log("ok");
     let time = 1;
 	var transition_data;
     let interval = setInterval(() => { 
       if (time <= 13) { 
-		d3.json(norwayDatasets[i]).then(
+		d3.json(norwayDatasets[time]).then(
 			(data, error) => {
 				if (error) {
 					console.log(error);
 				}else{
 					rawData = topojson.feature(data, data.objects.map_data_topo);
-					projection = d3.geoMercator().fitSize([970, 620], rawNorwayData);
+					projection = d3.geoMercator().fitSize([970, 550], rawNorwayData);
 					path = d3.geoPath().projection(projection);
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
-					this.transitionMap(transition_data)
+					transitionMap(transition_data, time)
 					time++;
 			}})}
       else { 
@@ -86,52 +89,18 @@ playButton = () => {
 
 let drawLineCharts = () => {
 
-	const margin = {top: 10, right: 10, bottom: 10, left: 10};
-	const data = lineChartData;
-	const yheight = 200;
-	const height = 300;
+	var margin = {top: 10, right: 30, bottom: 30, left: 60},
+    width = 460 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
-	const parseTime = d3.timeParse('%d/%m/%Y');
-	const x = d3.scaleTime().range([0, width - margin.left - margin.right - xMargin]);
-	x.domain(d3.extent(data, function(d) { return parseTime(d.date); }));
-
-	const y = d3.scaleLinear().range([yheight, 0]).nice();
-	y.domain([0, 0.200]);
-
-	const valueline = d3.line().x(function(d) { return x(parseTime(d.date)); }).y(function(d) { return y(d.average_radiation_value) + margin.top + margin.bottom; })
-	.curve(d3.curveMonotoneX);
-
-	const svg = d3.select('.line-wrapper').append('svg')
-	.attr('width',  width - margin.left - margin.right + 30)
-	.attr('height', height - margin.top - margin.bottom)
-	.attr('x', 0)
-	.attr('y', 0)
-	.attr('class', 'jumbo')
-	.append('g')
-	.attr('transform', 'translate(' + graphShift + ', 0)')
-
-	svg.append('g')
-	.attr("class", "y-axis")
-	.attr("transform", "translate(0," + (margin.top + margin.bottom) + ")")
-	.call(d3.axisLeft(y).ticks(5).tickSizeOuter(0).tickFormat(d => d  + 'µSv/h'));
-
-	svg.append('g')
-		.attr("class", "x-axis")
-		.attr("transform", "translate(0," + (yheight + margin.top + margin.bottom) + ")")
-		.call(d3.axisBottom(x).ticks(14).tickSizeOuter(1));
-
-	d3.select('.x-axis .tick:first-child').remove()
-
-	const path = svg.append('path')
-	.datum(data)
-	.attr('class', 'line')
-	.attr('fill', 'none')
-	.attr('stroke-width', '3px')
-	.attr('stroke', '#de2d26')
-	.attr('d', valueline);
-
+	svg = d3.select("#linechart")
+		.append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+		.attr("transform","translate(" + margin.left + "," + margin.top + ")");
 }
-
+		
 d3.json(norwayDatasets[0]).then(
 	(data, error) => {
 		if (error) {
@@ -145,8 +114,7 @@ d3.json(norwayDatasets[0]).then(
 			console.log(norwayData);
 
 			drawMap();
-
-			/*d3.json("linechart_data.json").then(
+			/*d3.json("data\/linechart_data.json").then(
 				(data, error) => {
 					if(error) {
 						console.log(error)

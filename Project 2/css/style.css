@@ -24,7 +24,7 @@ a {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto 2em auto;
-  min-height: 620px;
+  min-height: 550px;
   min-width: 970px;
 }
 
@@ -129,27 +129,32 @@ ul {
   display: flex;
   margin: 0.5em auto;
   max-width: 500px;
+  max-height: 95px;
 }
+ 
 
 .button-div {
-  display: flex;
+  display: inline-block;
   margin: auto;
   justify-content: space-between;
-  max-width: 250px;
+  max-width: 150px;
 }
 
-button {
-  box-shadow: none !important;
+.play-button {
+  width: 40px;
+  height: 35px;
+  display: inline-block;
+  background-size: 40px 35px; 
+  background:  url("./data/svg_elements/play.svg") no-repeat center center fixed;
 }
 
-.mat-slider-horizontal {
-  height: 48px;
-  min-width: 250px;
-  margin: 0 auto 2em auto;
-  display: flex;
-  max-width: 400px;
+.replay-button {
+  width: 40px;
+  height: 35px;
+  display: inline-block;
+  background-size: 40px 35px; 
+  background:  url("./data/svg_elements/replay.svg") no-repeat center center fixed;
 }
-
 
 .section-title {
   text-align: center;
@@ -178,10 +183,9 @@ button {
   font-size: 0.95em;
 }
 
-
 .line-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 700px;
+  max-width: 500px;
   align-self: center;
 }
