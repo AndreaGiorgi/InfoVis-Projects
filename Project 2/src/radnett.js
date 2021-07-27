@@ -110,7 +110,7 @@ let drawLineCharts = () => {
 					.	attr("transform",`translate(${margin.left},${margin.top})`);
 
 				// Add X axis --> it is a date format
-				const x = d3.scaleLinear().domain(d3.extent(data, function(d) { return d.date; })).range([ 0, width ]);
+				const x = d3.scaleLinear().domain(d3.extent(data, function(d) { return d.day;})).range([ 0, width ]);
 				svg.append("g").attr("transform", `translate(0, ${height})`).call(d3.axisBottom(x).ticks(14));
 
 				const y = d3.scaleLinear().domain([0, 0.150]).range([ height, 0 ]);
@@ -150,15 +150,7 @@ d3.json(norwayDatasets[0]).then(
 			console.log(norwayData);
 
 			drawMap();
-			/*d3.json("data\/linechart_data.json").then(
-				(data, error) => {
-					if(error) {
-						console.log(error)
-					} else {
-						lineChartData = data;
-						drawLineCharts();
-					}
-		});*/
+			drawLineCharts();
 	 }
 	}
 );
