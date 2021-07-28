@@ -35,12 +35,10 @@
         <br/>Last update: <strong class="highlight">31 July 2021</strong>
         </p>
         <img class = "play-button" onclick= "playButton()" src="data/svg_elements/play-button.svg"></img>
+        <h2 id="date"></h2>
     </div>
     <div id = map_div style="text-align: center;">
         <div id = legend_div style="text-align: center"><img class='svg-radscale' src="data/svg_elements/legend.svg"></div>
-        <div id = tooltip_area>
-            <div id = tooltip_area_text></div>
-        </div>
         <div id = canvas-div style="text-align: center"><svg class = 'norway-map' id='canvas'></svg></div>
     </div>
     <div class="mid-summary">
@@ -58,8 +56,10 @@
         <p> BLAAAAAAAAAAAAAAAAAAAA
         </p>
     </div>
-    <div id = "small-multiplies" style="text-align: center;">
-        <select id="selectButton"></select></div>
+    <div class = "dropdown-container">
+    <select id="selectButton" style="align-items: center;"></select>
+    <div class = "multiple_charts" style="text-align: center;"></div>
+    </div>
 </body>
 <script src="src/radnett.js"></script>
 </html>

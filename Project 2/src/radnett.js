@@ -9,7 +9,7 @@ let path
 const color_domain = [0.080, 0.089, 0.99, 0.110, 0.120, 0.125, 0.130];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
 
-const dateRange = ['16 Luglio 2021', '17 Luglio 2021']
+const dateRange = ['16 Luglio 2021', '17 Luglio 2021', '18 Luglio 2021', '19 Luglio 2021', '20 Luglio 2021', '21 Luglio 2021'];
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json'];
 
@@ -22,16 +22,21 @@ let setTooltips = () => {
 	});
 
 	tippy(counties.nodes(), {
-		duration: 1000,
+		followCursor: 'initial',
+		duration: [1000,500],
 		animation: 'fade',
 		arrow: true,
 	});
 }
 
+let titleTag = (date) => {
+	document.getElementById("date").innerHTML = date;
+}
 
 let drawMap = () => {
 
-	titleTag = dateRange[0];
+	date = dateRange[0];
+	titleTag(date);
 
 	svg.selectAll('path')
 		.data(norwayData)
@@ -89,7 +94,9 @@ let drawMap = () => {
 
 let transitionMap = (data, time) => {
 
-	titleTag = dateRange[time];
+	date = dateRange[time];
+	console.log(date);
+	titleTag(date);
 
 	svg.selectAll('path')
 		.data(data)
@@ -113,7 +120,7 @@ playButton = () => {
     let time = 1;
 	var transition_data;
     let interval = setInterval(() => { 
-      if (time <= 13) { 
+      if (time <= 14) { 
 		d3.json(norwayDatasets[time]).then(
 			(data, error) => {
 				if (error) {
@@ -124,13 +131,14 @@ playButton = () => {
 					path = d3.geoPath().projection(projection);
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
-					setTimeout(() => {transitionMap(transition_data, time);}, 2000);
+					transitionMap(transition_data, time);
+					//setTimeout(() => {transitionMap(transition_data, time);}, 2000);
 					time++;
 			}})}
       else { 
           clearInterval(interval);
       }
-    }, 3000);
+    }, 2000);
 
 	setTimeout(() => {transitionMap(norwayData);}, 5000);
   }
@@ -142,7 +150,7 @@ let drawLineCharts = () => {
     width = 350 - margin.left - margin.right,
     height = 350 - margin.top - margin.bottom;
 
-	const svg = d3.select("#small-multiplies")
+	const svg = d3.select(".multiple_charts")
 		.append("svg")
 			.attr("width", width + margin.left + margin.right)
 			.attr("height", height + margin.top + margin.bottom)
@@ -185,6 +193,23 @@ let drawLineCharts = () => {
 					.attr("stroke", (d) => {return colorscale(d.county)})
 					.attr("stroke-width", 4.5)
 					.attr("fill", "none");
+
+					svg.append("text")
+						.attr("transform", "rotate(-90)")
+						.attr("y", 0 - margin.left)
+						.attr("x", - 50)
+						.attr("dy", "1em")
+						.attr("font-size", "0.75em")
+						.style("text-anchor", "middle")
+						.text("Average µSv/h");
+
+					svg.append("text")
+						.attr("y", height + 28)
+						.attr("x", (width/2))
+						.attr("dx", "1em")
+						.attr("font-size", "0.75em")
+						.style("text-anchor", "end")
+						.text("Day");
 
 				function update(selectedCounty){
 					const dataFilter = data.filter(function(d){return d.county==selectedCounty})
