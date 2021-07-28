@@ -6,7 +6,6 @@
 html, body {
   font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
   text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern" 1;
   -webkit-font-smoothing: antialiased;
   background-color: #F5FBEF;
   color: #333;

@@ -9,16 +9,18 @@ let path
 const color_domain = [0.080, 0.089, 0.99, 0.110, 0.120, 0.125, 0.130];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
 
-const dateRange = ['16 Luglio 2021', '17 Luglio 2021', '18 Luglio 2021', '19 Luglio 2021', '20 Luglio 2021', '21 Luglio 2021'];
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json'];
 
+const dateRange = ['17 Luglio 2021', '18 Luglio 2021', '19 Luglio 2021', '20 Luglio 2021', '21 Luglio 2021',
+'22 Luglio 2021', '23 Luglio 2021', '24 Luglio 2021', '25 Luglio 2021', '26 Luglio 2021', '27 Luglio 2021', '28 Luglio 2021',
+'29 Luglio 2021', '30 Luglio 2021', '31 Luglio 2021'];
 
 let setTooltips = () => {
 
 	counties = svg.selectAll('.county');
-	counties.attr('data-tippy-content', (d,i) => {
-		return `County: ${d['properties']['county_name']}, Radiations: ${d['properties']['average_radiation_value']}`;
+	counties.attr('data-tippy-content', (d, i) => {
+		return `County: ${d['properties']['county_name']}, Radiations: ${d['properties']['average_radiation_value']} µSv/h`;
 	});
 
 	tippy(counties.nodes(), {
@@ -29,14 +31,9 @@ let setTooltips = () => {
 	});
 }
 
-let titleTag = (date) => {
-	document.getElementById("date").innerHTML = date;
-}
-
 let drawMap = () => {
 
-	date = dateRange[0];
-	titleTag(date);
+	document.getElementById("date").innerHTML = '16 Luglio 2021';
 
 	svg.selectAll('path')
 		.data(norwayData)
@@ -92,17 +89,12 @@ let drawMap = () => {
 
 }
 
-let transitionMap = (data, time) => {
-
-	date = dateRange[time];
-	console.log(date);
-	titleTag(date);
+let transitionMap = (data) => {
 
 	svg.selectAll('path')
 		.data(data)
 		.transition()
-		.delay(1000)
-		.duration(2000)
+		.duration(1500)
 		.attr("name", (d) =>{return d['properties']['county_name']})
 		.attr("capital", (d) => {return d['properties']['county_capital']})
 		.attr("radiations", (d) => {return d['properties']['average_radiation_value']})
@@ -117,10 +109,10 @@ let transitionMap = (data, time) => {
 
 playButton = () => {
 
-    let time = 1;
+    let time = 0;
 	var transition_data;
     let interval = setInterval(() => { 
-      if (time <= 14) { 
+      if (time <= 13) { 
 		d3.json(norwayDatasets[time]).then(
 			(data, error) => {
 				if (error) {
@@ -131,16 +123,16 @@ playButton = () => {
 					path = d3.geoPath().projection(projection);
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
-					transitionMap(transition_data, time);
-					//setTimeout(() => {transitionMap(transition_data, time);}, 2000);
+					document.getElementById("date").innerHTML = dateRange[time];
+					transitionMap(transition_data);
 					time++;
 			}})}
       else { 
           clearInterval(interval);
       }
-    }, 2000);
+    }, 3000);
 
-	setTimeout(() => {transitionMap(norwayData);}, 5000);
+	setTimeout(() => {transitionMap(norwayData);}, 5500);
   }
 
 
