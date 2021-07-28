@@ -14,36 +14,22 @@ const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','d
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json'];
 
 
-	/* TODO ADD TOOLTIP */
+let setTooltips = () => {
+
+	counties = svg.selectAll('.county');
+	counties.attr('data-tippy-content', (d,i) => {
+		return `County: ${d['properties']['county_name']}, Radiations: ${d['properties']['average_radiation_value']}`;
+	});
+
+	tippy(counties.nodes(), {
+		duration: 1000,
+		animation: 'fade',
+		arrow: true,
+	});
+}
+
+
 let drawMap = () => {
-
-
-	let mouseOver  = function(d){
-		tip.show
-		d3.selectAll(".County")
-		  .transition()
-		  .duration(200)
-		  .attr("opacity", .5)
-
-		d3.select(this)
-		  .transition()
-		  .duration(200)
-		  .attr("opacity", 1)
-		  .attr("stroke", "black")
-	  }
-	
-	let mouseLeave = function(d){
-		tip.hide
-		d3.selectAll(".County")
-		  .transition()
-		  .duration(200)
-		  .attr("opacity", .8)
-		  .attr("stroke", "#F5FBEF")
-		d3.select(this)
-		  .transition()
-		  .duration(200)
-		  .attr("stroke", "#F5FBEF")
-	  }	
 
 	titleTag = dateRange[0];
 
@@ -52,8 +38,8 @@ let drawMap = () => {
 		.enter()
 		.append('path')
 		.attr('d', path)
-		.attr("name", (d) =>{return d['county_name']})
-		.attr("capital", (d) => {return d['county_capital']})
+		.attr("name", (d) =>{return d['properties']['county_name']})
+		.attr("capital", (d) => {return d['properties']['county_capital']})
 		.attr("radiations", (d) => {return d['properties']['average_radiation_value']})
 		.attr("opacity", 0.8)
 		.attr('stroke', "#F5FBEF")
@@ -65,10 +51,38 @@ let drawMap = () => {
 			} else {
 				return '#ccc';}
 			})
-		.attr("class", (d) => {return "County"})
+		.attr("class", (d) => {return "county"})
 		.attr("text", this.name)
-		.on("mouseover",mouseOver)
-		.on("mouseleave", mouseLeave)
+		.on("mouseover",function(event, d){
+
+			d3.selectAll(".county")
+				.transition()
+				.duration(200)
+				.attr("opacity", .5)
+			
+		  	d3.select(this)
+				.transition()
+				.duration(200)
+				.attr("opacity", 1)
+				.attr("stroke", "black")
+
+			setTooltips();
+		
+		})
+		.on("mouseleave", function(d) {
+
+			d3.selectAll(".county")
+				.transition()
+				.duration(200)
+				.attr("opacity", .8)
+				.attr("stroke", "#F5FBEF")
+			
+			d3.select(this)
+				.transition()
+				.duration(200)
+				.attr("stroke", "#F5FBEF")
+
+		})
 		.classed('svg-content-responsive', true);
 
 }
@@ -82,8 +96,8 @@ let transitionMap = (data, time) => {
 		.transition()
 		.delay(1000)
 		.duration(2000)
-		.attr("name", (d) =>{return d['county_name']})
-		.attr("capital", (d) => {return d['county_capital']})
+		.attr("name", (d) =>{return d['properties']['county_name']})
+		.attr("capital", (d) => {return d['properties']['county_capital']})
 		.attr("radiations", (d) => {return d['properties']['average_radiation_value']})
 		.attr('fill', (d) => {
 			const value = d['properties']['average_radiation_value'];
@@ -91,7 +105,7 @@ let transitionMap = (data, time) => {
 			  return color_legend(d['properties']['average_radiation_value']);
 			} else {
 				return '#ccc';}
-			});
+			})
 }
 
 playButton = () => {
@@ -106,17 +120,17 @@ playButton = () => {
 					console.log(error);
 				}else{
 					rawData = topojson.feature(data, data.objects.map_data_topo);
-					projection = d3.geoMercator().fitSize([970, 550], rawNorwayData);
+					projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
 					path = d3.geoPath().projection(projection);
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
-					setTimeout(() => {transitionMap(transition_data, time);}, 1500);
+					setTimeout(() => {transitionMap(transition_data, time);}, 2000);
 					time++;
 			}})}
       else { 
           clearInterval(interval);
       }
-    }, 2000);
+    }, 3000);
 
 	setTimeout(() => {transitionMap(norwayData);}, 5000);
   }
@@ -141,7 +155,6 @@ let drawLineCharts = () => {
 				console.log(error);
 			}else{
 				const allCounties = new Set(data.map(d => d.county))
-				//const sumstat = d3.group(data, d => d.county)
 
 				d3.select("#selectButton")
 					.selectAll('counties')
@@ -151,16 +164,11 @@ let drawLineCharts = () => {
 					.text(function(d) {return d;}) //text
 					.attr("value", function(d) { return d;}) // returned value
 
-				const colorscale = d3.scaleOrdinal()
-					.domain(allCounties)
-					.range(["#03071E", "#370617", "#6A040F", "#9D0208","#B70104", "#D00000", "#DC2F02", "#E85D04",
-					"#F48C06", "#FAA307", "#FFBA08"]);
-				/*const colorscale = d3.scaleOrdinal().domain(allCounties).range(["#03071E", "#370617", "#6A040F", "#9D0208","#B70104", "#D00000", "#DC2F02", "#E85D04",
-					"#F48C06", "#FAA307", "#FFBA08"]);*/
+				const colorscale = d3.scaleOrdinal().domain(allCounties).range(["#FBAF00", "#EFCA08", "#143109", "#D64933","#119DA4", "#D5A021", "#7F6A93", "#5DA9E9","#E8CCBF", "#95C623", "#E55812"]);
 
 				// Add X axis --> it is a date format
 				const x = d3.scaleLinear().domain(d3.extent(data, (d) => { return d.day;})).range([ 0, width ]);
-				svg.append("g").attr("transform", `translate(0, ${height})`).call(d3.axisBottom(x).ticks(15));
+				svg.append("g").attr("transform", `translate(0, ${height})`).call(d3.axisBottom(x).ticks(14));
 
 				const y = d3.scaleLinear().domain([0, 0.250]).range([height, 0 ]);
 				svg.append("g").call(d3.axisLeft(y).ticks(10));
@@ -175,7 +183,7 @@ let drawLineCharts = () => {
 						.y((d) => { return y(+d.value)})
 					)
 					.attr("stroke", (d) => {return colorscale(d.county)})
-					.attr("stroke-width", 4)
+					.attr("stroke-width", 4.5)
 					.attr("fill", "none");
 
 				function update(selectedCounty){
@@ -193,9 +201,7 @@ let drawLineCharts = () => {
 				}
 
 				d3.select("#selectButton").on("change", function(event, d) {
-					// recover the option that has been chosen
 					const selectedOption = d3.select(this).property("value")
-					// run the updateChart function with this selected option
 					update(selectedOption)
 				});
 
@@ -209,7 +215,7 @@ d3.json(norwayDatasets[0]).then(
 			console.log(error);
 		}else{
 			rawNorwayData = topojson.feature(data, data.objects.map_data_topo);
-			projection = d3.geoMercator().fitSize([970, 620], rawNorwayData);
+			projection = d3.geoMercator().fitSize([670, 520], rawNorwayData);
 			path = d3.geoPath().projection(projection);
 			
 			norwayData = topojson.feature(data, data.objects.map_data_topo).features;

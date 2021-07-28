@@ -3,15 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-*{
-  background-color: #F5FBEF;
-}
-
 html, body {
   font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "kern" 1;
   -webkit-font-smoothing: antialiased;
+  background-color: #F5FBEF;
   color: #333;
 }
 
@@ -25,20 +22,9 @@ a {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto 2em auto;
-  min-height: 620px;
-  min-width: 970px;
+  min-height: 520px;
+  min-width: 870px;
 }
-/*svg{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto 2em auto;
-  min-height: 620px;
-  min-width: 970px;
-  padding: 10px;
-  border-radius: 5px;
-}*/
 
 .norway-map{
     display: flex;
@@ -46,11 +32,21 @@ a {
     justify-content: center;
     flex-direction: column;
     margin: 0 auto 2em auto;
-    min-height: 620px;
-    min-width: 970px;
+    min-height: 520px;
+    min-width: 870px;
     padding: 10px;
     border-radius: 5px;
 }
+
+.tippy-box{
+  color: #fefefe;
+  font-family: sans-serif;
+  padding: 5px 8px;
+  border-radius: 2px;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
 
 .small-multiplies{
   display: inline-flex;
