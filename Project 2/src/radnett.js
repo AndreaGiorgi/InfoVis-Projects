@@ -149,7 +149,7 @@ let drawLineCharts = () => {
 		.append("g")
 			.attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-	d3.json("data\/small_multiplies.json").then(
+	d3.json("data\/multiple_charts.json").then(
 		(data,error) => {
 			if (error) {
 				console.log(error);

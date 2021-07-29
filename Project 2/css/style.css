@@ -6,6 +6,7 @@
 html, body {
   font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
   text-rendering: optimizeLegibility;
+  justify-content: space-evenly;
   -webkit-font-smoothing: antialiased;
   background-color: #F5FBEF;
   color: #333;
@@ -46,38 +47,36 @@ a {
   font-weight: bold;
 }
 
-.small-multiplies{
+.multiple_charts{
   display: flex;
-  margin: 0 auto 3em auto;
-  min-height: 350px;
-  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  max-width: fit-content;
+  max-height: fit-content;
+  align-self: center;
 }
 
 .dropdown-container {
-  width: 300px;
-  margin: 100px auto;
   position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  margin: 2em auto;
+  height: 370px;
+  align-items: center;
+  border: 1px solid #ddd;
 }
 
 #selectButton{
-  width: 100%;
+  width: 25%;
   height: 50px;
   font-size: 100%;
   cursor: pointer;
   border-radius: 0;
-  border: none;
+  border: 1px solid #ddd;
   color: #c0392b;
   background-color: #F5FBEF;
-  padding: 2px 2px 2px 2px;
-  padding-right: 38px;
-  transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
-}
-
-#selectButton:hover,
-#selectButton:focus {
-  color: #c0392b;
-  background-color: #F5FBEF;
-  border-bottom-color: #F5FBEF;
+  padding: 2px 0px 2px 2px;
 }
 
 .page-title {
