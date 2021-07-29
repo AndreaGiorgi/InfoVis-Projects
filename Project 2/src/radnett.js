@@ -6,15 +6,16 @@ let svg = d3.select('#canvas') //D3 selection
 let projection
 let path
 
-const color_domain = [0.080, 0.089, 0.99, 0.110, 0.120, 0.125, 0.130];
-const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000']).domain(color_domain);
+const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.130, 0.140, 0.141];
+const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000', '#AF0000']).domain(color_domain);
 
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
-	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json'];
+	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json', 
+	'data\/map_data_2627.json', 'data\/map_data_2728.json', 'data\/map_data_2829.json', 'data\/map_data_2930.json', 'data\/map_data3031.json'];
 
-const dateRange = ['17 Luglio 2021', '18 Luglio 2021', '19 Luglio 2021', '20 Luglio 2021', '21 Luglio 2021',
-'22 Luglio 2021', '23 Luglio 2021', '24 Luglio 2021', '25 Luglio 2021', '26 Luglio 2021', '27 Luglio 2021', '28 Luglio 2021',
-'29 Luglio 2021', '30 Luglio 2021', '31 Luglio 2021'];
+const dateRange = ['17 July 2021', '18 July 2021', '19 July 2021', '20 July 2021', '21 July 2021',
+'22 July 2021', '23 July 2021', '24 July 2021', '25 July 2021', '26 July 2021', '27 July 2021', '28 July 2021',
+'29 July 2021', '30 July 2021', '31 July 2021']; 
 
 let setTooltips = () => {
 
@@ -33,7 +34,7 @@ let setTooltips = () => {
 
 let drawMap = () => {
 
-	document.getElementById("date").innerHTML = '16 Luglio 2021';
+	document.getElementById("date").innerHTML = '16 July 2021';
 
 	svg.selectAll('path')
 		.data(norwayData)
@@ -55,7 +56,7 @@ let drawMap = () => {
 			})
 		.attr("class", (d) => {return "county"})
 		.attr("text", this.name)
-		.on("mouseover",function(event, d){
+		.on("mouseover",function(d){
 
 			d3.selectAll(".county")
 				.transition()
@@ -118,6 +119,7 @@ playButton = () => {
 				if (error) {
 					console.log(error);
 				}else{
+					document.getElementById("play-button").style.visibility = "hidden";
 					rawData = topojson.feature(data, data.objects.map_data_topo);
 					projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
 					path = d3.geoPath().projection(projection);
@@ -133,6 +135,8 @@ playButton = () => {
     }, 3000);
 
 	setTimeout(() => {transitionMap(norwayData);}, 5500);
+	document.getElementById("play-button").style.visibility = "visibile";
+
   }
 
 

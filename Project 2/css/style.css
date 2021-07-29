@@ -146,10 +146,10 @@ ul {
 .svg-radscale {
   display: flex;
   margin: 0.5em auto;
-  max-width: 450px;
+  max-width: 500px;
 }
 
-.play-button {
+#play-button {
   display: flex;
   margin: auto;
   margin-bottom: 15px;

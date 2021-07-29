@@ -4,22 +4,30 @@ def main():
     
     counties = {}
     
-    with open('radnett_data_2122-07-2021.json') as jsonFile:
+    with open('radnett_data_2728-07-2021.json') as jsonFile:
         jsonObject = json.load(jsonFile)
         jsonFile.close()
     
+    norway = {}
+    
     for index in range(33):
-        station = jsonObject[index]['location']
         county = jsonObject[index]['county']
         
         total_value = 0
+        
+        if county not in norway:
+            norway[county] = {}
+            norway[county]['radiations'] = 0
         
         for value_index in range(24):
             total_value += float(jsonObject[index]['measurements'][value_index]['value'])
         
         average = total_value/24
         average_daily_value = "{:.3f}".format(average)
-        print(station + " " + county + "  value: " + average_daily_value)
+        norway[county]['radiations'] = "{:.3f}".format(float(norway[county]['radiations']) + float(average_daily_value))
+        
+    for k, v in norway.items():
+        print(k, v)
         
     
 
