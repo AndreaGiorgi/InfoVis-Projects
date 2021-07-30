@@ -2,9 +2,7 @@ import json
 
 def main():
     
-    counties = {}
-    
-    with open('radnett_data_2728-07-2021.json') as jsonFile:
+    with open('radnett_data_2930-07-2021.json') as jsonFile:
         jsonObject = json.load(jsonFile)
         jsonFile.close()
     
