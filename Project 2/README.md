@@ -1,6 +1,5 @@
 # InfoVis-Projects: Project 2: Radnett data visualization
 
-
 The following project utilizes radiation data derived from DSA Norwegian Radiation and Nuclear Safety Authority. Each daily data has been aggregated by each county
 showing the daily radiation change on a two week range of observation. The data is taken directly from the DSA Open Data, carefully engineered and later visualized. 
 
@@ -9,6 +8,17 @@ The data representation is the following:
 * The change in color will represent the change in the average radioactivity value
 * An animation will show the changes in value over a time interval, showing any phenomena of high radioactivity.
 * A linechart for each district shows the variation in the radiation level over the entire observation period, the graph can be selected by the user by choosing the district to be analyzed.
+
+Used Technologies
+------------
+
+* D3.js (https://d3js.org/)
+* HTML + CSS 
+* Javascript
+* Tippy.js (https://atomiks.github.io/tippyjs/)
+* GeoJSON (https://geojson.org/)
+* TopoJSON (https://github.com/topojson/topojson)
+* Python 3.8.x
 
 Requirements
 ------------
