@@ -337,7 +337,7 @@
 	{
 	  "day": 22,
 	  "county": "Møre og Romsdal",
-	  "value": 0.090
+	  "value": 0.09
 	},
 	{
 	  "day": 22,
@@ -517,7 +517,7 @@
 	{
 	  "day": 25,
 	  "county": "Troms og Finnmark",
-	  "value": 0.8
+	  "value": 0.08
 	},
 	{
 	  "day": 25,
@@ -770,68 +770,58 @@
 	  "value": 0.122
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Nordland",
+	  "value": 0.066
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Møre og Romsdal",
+	  "value": 0.102
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Rogaland",
+	  "value": 0.127
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Oslo",
+	  "value": 0.141
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Troms og Finnmark",
+	  "value": 0.095
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Innlandet",
+	  "value": 0.116
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Vestland",
+	  "value": 0.119
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Trøndelag",
+	  "value": 0.091
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Viken",
+	  "value": 0.134
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Agder",
+	  "value": 0.094
 	},
 	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
-	},
-	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
-	},
-	{
-	  "day": "",
-	  "county": "",
-	  "value": ""
+	  "day": 30,
+	  "county": "Vestfold og Telemark",
+	  "value": 0.121
 	}
   ]

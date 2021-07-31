@@ -2,7 +2,7 @@ import json
 
 def main():
     
-    with open('radnett_data_2930-07-2021.json') as jsonFile:
+    with open('radnett_data_3031-07-2021.json') as jsonFile:
         jsonObject = json.load(jsonFile)
         jsonFile.close()
     
