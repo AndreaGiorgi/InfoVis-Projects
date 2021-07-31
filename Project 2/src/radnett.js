@@ -5,6 +5,7 @@ let svg = d3.select('#canvas') //D3 selection
 
 let projection
 let path
+let interval
 
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.130, 0.140, 0.141];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000', '#AF0000']).domain(color_domain);
@@ -15,7 +16,7 @@ const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','d
 
 const dateRange = ['17 July 2021', '18 July 2021', '19 July 2021', '20 July 2021', '21 July 2021',
 '22 July 2021', '23 July 2021', '24 July 2021', '25 July 2021', '26 July 2021', '27 July 2021', '28 July 2021',
-'29 July 2021', '30 July 2021', '31 July 2021']; 
+'29 July 2021', '30 July 2021']; 
 
 let setTooltips = () => {
 
@@ -35,6 +36,7 @@ let setTooltips = () => {
 let drawMap = () => {
 
 	document.getElementById("date").innerHTML = '16 July 2021';
+	document.getElementById("reset-button").style.display = 'none';
 
 	svg.selectAll('path')
 		.data(norwayData)
@@ -112,14 +114,15 @@ playButton = () => {
 
     let time = 0;
 	var transition_data;
-    let interval = setInterval(() => { 
+    interval = setInterval(() => { 
       if (time <= 13) { 
 		d3.json(norwayDatasets[time]).then(
 			(data, error) => {
 				if (error) {
 					console.log(error);
 				}else{
-					document.getElementById("play-button").style.visibility = "hidden";
+					document.getElementById("play-button").style.display = 'none';
+					document.getElementById("reset-button").style.display = 'block';
 					rawData = topojson.feature(data, data.objects.map_data_topo);
 					projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
 					path = d3.geoPath().projection(projection);
@@ -132,11 +135,18 @@ playButton = () => {
       else { 
           clearInterval(interval);
       }
-    }, 3000);
+    }, 2500);
+  }
 
-	setTimeout(() => {transitionMap(norwayData);}, 5500);
-	document.getElementById("play-button").style.visibility = "visibile";
+  resetButton = () => {
 
+	clearInterval(interval);
+	document.getElementById("play-button").style.display = 'block';
+	document.getElementById("reset-button").style.display = 'none';
+
+	let reset = setTimeout(transitionMap(norwayData), 1500);
+	document.getElementById("date").innerHTML = '16 July 2021';
+	clearTimeout(reset);
   }
 
 

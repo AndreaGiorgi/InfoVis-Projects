@@ -149,8 +149,16 @@ ul {
   max-width: 500px;
 }
 
+#reset-button {
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  max-width: 50px;
+}
+
 #play-button {
-  display: flex;
+  display: inline-block;
   margin: auto;
   margin-bottom: 15px;
   justify-content: space-between;
