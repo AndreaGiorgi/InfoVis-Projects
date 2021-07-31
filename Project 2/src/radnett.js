@@ -22,12 +22,13 @@ let setTooltips = () => {
 
 	counties = svg.selectAll('.county');
 	counties.attr('data-tippy-content', (d, i) => {
-		return `County: ${d['properties']['county_name']}, Radiations: ${d['properties']['average_radiation_value']} µSv/h`;
+		return `County: ${d['properties']['county_name']}, Radiations value: ${d['properties']['average_radiation_value']} µSv/h`;
 	});
 
 	tippy(counties.nodes(), {
-		followCursor: 'initial',
-		duration: [1000,500],
+		followCursor: 'true',
+		duration: 300,
+		inlinePositioning: true,
 		animation: 'fade',
 		arrow: true,
 	});
