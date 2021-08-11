@@ -6,13 +6,14 @@ let svg = d3.select('#canvas') //D3 selection
 let projection
 let path
 let interval
+let slider = d3.sliderHorizontal()
 
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.130, 0.140, 0.141];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000', '#AF0000']).domain(color_domain);
 
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json', 
-	'data\/map_data_2627.json', 'data\/map_data_2728.json', 'data\/map_data_2829.json', 'data\/map_data_2930.json', 'data\/map_data3031.json'];
+	'data\/map_data_2627.json', 'data\/map_data_2728.json', 'data\/map_data_2829.json', 'data\/map_data_2930.json', 'data\/map_data_3031.json'];
 
 const dateRange = ['17 July 2021', '18 July 2021', '19 July 2021', '20 July 2021', '21 July 2021',
 '22 July 2021', '23 July 2021', '24 July 2021', '25 July 2021', '26 July 2021', '27 July 2021', '28 July 2021',
@@ -34,10 +35,49 @@ let setTooltips = () => {
 	});
 }
 
+let setTimeSlider = () => {
+
+	slider
+    .min(16)
+    .max(30)
+    .step(1)
+    .width(450)
+    .displayValue(true)
+    .on('onchange', (val) => {
+		document.getElementById("date").innerHTML = val + ' July 2021';
+		index = val - 16;
+		d3.json(norwayDatasets[index]).then(
+			(data, error) => {
+				if (error) {
+					console.log(error);
+				}else{
+					rawData = topojson.feature(data, data.objects.map_data_topo);
+					projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
+					path = d3.geoPath().projection(projection);
+					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
+					transitionMap(transition_data);
+				}})
+    });
+
+	d3.select('#slider')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 70)
+    .append('g')
+    .attr('transform', 'translate(30,30)')
+    .call(slider);
+
+
+	//document.getElementById("date").innerHTML = sliderTime.value();
+
+}
+
 let drawMap = () => {
 
 	document.getElementById("date").innerHTML = '16 July 2021';
 	document.getElementById("reset-button").style.display = 'none';
+
+	setTimeSlider();
 
 	svg.selectAll('path')
 		.data(norwayData)
@@ -116,7 +156,7 @@ playButton = () => {
     let time = 0;
 	var transition_data;
     interval = setInterval(() => { 
-      if (time <= 13) { 
+      if (time <= 14) { 
 		d3.json(norwayDatasets[time]).then(
 			(data, error) => {
 				if (error) {
@@ -124,14 +164,18 @@ playButton = () => {
 				}else{
 					document.getElementById("play-button").style.display = 'none';
 					document.getElementById("reset-button").style.display = 'block';
+					slider_value = time + 16;
 					rawData = topojson.feature(data, data.objects.map_data_topo);
 					projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
 					path = d3.geoPath().projection(projection);
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
 					document.getElementById("date").innerHTML = dateRange[time];
+					slider.value(slider_value)
 					transitionMap(transition_data);
 					time++;
+
+					
 			}})}
       else { 
           clearInterval(interval);
@@ -147,6 +191,8 @@ playButton = () => {
 
 	let reset = setTimeout(transitionMap(norwayData), 1500);
 	document.getElementById("date").innerHTML = '16 July 2021';
+	slider_value = 16
+	slider.value(slider_value)
 	clearTimeout(reset);
   }
 
@@ -249,10 +295,10 @@ let drawLineCharts = () => {
 
 					average_line
 					.transition()
-					.duration(1000)
+					.duration(800)
 					.attr("stroke-width", 0.0)
 					.transition()
-					.duration(1000)
+					.duration(1500)
 					.attr("stroke-width", 4);
 
 				}

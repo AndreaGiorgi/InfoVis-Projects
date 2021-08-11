@@ -8,9 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="lib/d3.v6.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
+
 </head>
 <body>
     <h1 class="page-title">Radiation levels in a week interval <br/> obtained from <br/> norwegian government data<br/></h1>
@@ -39,9 +41,10 @@
         <img id = "reset-button" style="visibility: visible; " onclick= "resetButton()" src="data/svg_elements/replay.svg"></img>
         <h2 id="date"></h2>
     </div>
-    <div id = map_div style="text-align: center;">
-        <div id = legend_div style="text-align: center"><img class='svg-radscale' src="data/svg_elements/legend.svg"></div>
-        <div id = canvas-div style="text-align: center"><svg class = 'norway-map' id='canvas'></svg></div>
+    <div id = "map_div" style="text-align: center;">
+        <div id="slider"></div>
+        <div id = "legend_div" style="text-align: center"><img class='svg-radscale' src="data/svg_elements/legend.svg"></div>
+        <div id = "canvas-div" style="text-align: center"><svg class = 'norway-map' id='canvas'></svg></div>
     </div>
     <div class="mid-summary">
         <p>From the visual representation showed above we can clearly see that the radiation levels during mid-July fits inside a normal behavior. 
