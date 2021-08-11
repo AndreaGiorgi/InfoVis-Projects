@@ -1,4 +1,9 @@
-[
+[	
+	{
+	"day": 16,
+	"county": "Norway",
+	"value": 0.113
+  	},
 	{
 	  "day": 16,
 	  "county": "Nordland",
@@ -55,10 +60,10 @@
 	  "value": 0.123
 	},
 	{
-	  "day": 16,
-	  "county": "Norway",
-	  "value": 0.113
-	},
+		"day": 17,
+		"county": "Norway",
+		"value": 0.111
+	  },
 	{
 	  "day": 17,
 	  "county": "Nordland",
@@ -115,10 +120,10 @@
 	  "value": 0.123
 	},
 	{
-	  "day": 17,
-	  "county": "Norway",
-	  "value": 0.111
-	},
+		"day": 18,
+		"county": "Norway",
+		"value": 0.137
+	  },
 	{
 	  "day": 18,
 	  "county": "Nordland",
@@ -175,10 +180,10 @@
 	  "value": 0.121
 	},
 	{
-	  "day": 18,
-	  "county": "Norway",
-	  "value": 0.137
-	},
+		"day": 19,
+		"county": "Norway",
+		"value": 0.107
+	  },
 	{
 	  "day": 19,
 	  "county": "Nordland",
@@ -235,10 +240,10 @@
 	  "value": 0.122
 	},
 	{
-	  "day": 19,
-	  "county": "Norway",
-	  "value": 0.107
-	},
+		"day": 20,
+		"county": "Norway",
+		"value": 0.101
+	  },
 	{
 	  "day": 20,
 	  "county": "Nordland",
@@ -295,10 +300,10 @@
 	  "value": 0.122
 	},
 	{
-	  "day": 20,
-	  "county": "Norway",
-	  "value": 0.101
-	},
+		"day": 21,
+		"county": "Norway",
+		"value": 0.108
+	  },
 	{
 	  "day": 21,
 	  "county": "Nordland",
@@ -355,10 +360,10 @@
 	  "value": 0.122
 	},
 	{
-	  "day": 21,
-	  "county": "Norway",
-	  "value": 0.108
-	},
+		"day": 22,
+		"county": "Norway",
+		"value": 0.108
+	  },
 	{
 	  "day": 22,
 	  "county": "Nordland",
@@ -415,10 +420,10 @@
 	  "value": 0.123
 	},
 	{
-	  "day": 22,
-	  "county": "Norway",
-	  "value": 0.108
-	},
+		"day": 23,
+		"county": "Norway",
+		"value": 0.11
+	  },
 	{
 	  "day": 23,
 	  "county": "Nordland",
@@ -475,10 +480,10 @@
 	  "value": 0.124
 	},
 	{
-	  "day": 23,
-	  "county": "Norway",
-	  "value": 0.11
-	},
+		"day": 24,
+		"county": "Norway",
+		"value": 0.109
+	  },
 	{
 	  "day": 24,
 	  "county": "Nordland",
@@ -535,10 +540,10 @@
 	  "value": 0.145
 	},
 	{
-	  "day": 24,
-	  "county": "Norway",
-	  "value": 0.109
-	},
+		"day": 25,
+		"county": "Norway",
+		"value": 0.113
+	  },
 	{
 	  "day": 25,
 	  "county": "Nordland",
@@ -595,10 +600,10 @@
 	  "value": 0.125
 	},
 	{
-	  "day": 25,
-	  "county": "Norway",
-	  "value": 0.113
-	},
+		"day": 26,
+		"county": "Norway",
+		"value": 0.112
+	  },
 	{
 	  "day": 26,
 	  "county": "Nordland",
@@ -655,10 +660,10 @@
 	  "value": 0.126
 	},
 	{
-	  "day": 26,
-	  "county": "Norway",
-	  "value": 0.112
-	},
+		"day": 27,
+		"county": "Norway",
+		"value": 0.112
+	  },
 	{
 	  "day": 27,
 	  "county": "Nordland",
@@ -715,10 +720,10 @@
 	  "value": 0.123
 	},
 	{
-	  "day": 27,
-	  "county": "Norway",
-	  "value": 0.112
-	},
+		"day": 28,
+		"county": "Norway",
+		"value": 0.11
+	  },
 	{
 	  "day": 28,
 	  "county": "Nordland",
@@ -775,10 +780,10 @@
 	  "value": 0.123
 	},
 	{
-	  "day": 28,
-	  "county": "Norway",
-	  "value": 0.11
-	},
+		"day": 29,
+		"county": "Norway",
+		"value": 0.11
+	  },
 	{
 	  "day": 29,
 	  "county": "Nordland",
@@ -835,10 +840,10 @@
 	  "value": 0.122
 	},
 	{
-	  "day": 29,
-	  "county": "Norway",
-	  "value": 0.11
-	},
+		"day": 30,
+		"county": "Norway",
+		"value": 0.109
+	  },
 	{
 	  "day": 30,
 	  "county": "Nordland",
@@ -893,10 +898,5 @@
 	  "day": 30,
 	  "county": "Vestfold og Telemark",
 	  "value": 0.121
-	},
-	{
-	  "day": 30,
-	  "county": "Norway",
-	  "value": 0.109
 	}
   ]

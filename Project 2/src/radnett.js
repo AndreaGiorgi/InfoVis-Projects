@@ -170,6 +170,7 @@ let drawLineCharts = () => {
 				console.log(error);
 			}else{
 				const allCounties = new Set(data.map(d => d.county))
+				console.log(allCounties)
 
 				d3.select("#selectButton")
 					.selectAll('counties')
@@ -179,7 +180,8 @@ let drawLineCharts = () => {
 					.text(function(d) {return d;}) //text
 					.attr("value", function(d) { return d;}) // returned value
 
-				const colorscale = d3.scaleOrdinal().domain(allCounties).range(["#FBAF00", "#EFCA08", "#143109", "#D64933","#119DA4", "#D5A021", "#7F6A93", "#5DA9E9","#E8CCBF", "#95C623", "#E55812"]);
+				const colorscale = d3.scaleOrdinal().domain(allCounties).range(["#92140C", "#FBAF00", "#EFCA08", "#143109", "#D64933","#119DA4", "#D5A021", "#7F6A93", "#5DA9E9","#E8CCBF", "#95C623", 
+				"#E55812"]);
 
 				// Add X axis --> it is a date format
 				const x = d3.scaleLinear().domain(d3.extent(data, (d) => { return d.day;})).range([ 0, width ]);
@@ -188,17 +190,18 @@ let drawLineCharts = () => {
 				const y = d3.scaleLinear().domain([0, 0.250]).range([height, 0 ]);
 				svg.append("g").call(d3.axisLeft(y).ticks(10));
 
+
 				const line = svg
 					.append("g")
 					.append("path")
-					.datum(data.filter(function(d){return d.county == "Nordland"}))
+					.datum(data.filter(function(d){return d.county == "Norway"}))
 					.attr("d", 
 						d3.line()
 						.x((d) => { return x(d.day)})
 						.y((d) => { return y(+d.value)})
 					)
 					.attr("stroke", (d) => {return colorscale(d.county)})
-					.attr("stroke-width", 4.5)
+					.attr("stroke-width", 4)
 					.attr("fill", "none");
 
 					svg.append("text")
@@ -218,6 +221,20 @@ let drawLineCharts = () => {
 						.style("text-anchor", "end")
 						.text("Day");
 
+					const average_line = svg
+						.append("g")
+						.append("path")
+						.datum(data.filter(function(d){return d.county == "Norway"}))
+						.attr("d", 
+							d3.line()
+							.x((d) => { return x(d.day)})
+							.y((d) => { return y(+d.value)})
+						)
+						.attr("stroke", "#92140C")
+						.attr("stroke-width", 4)
+						.attr("fill", "none");
+	
+
 				function update(selectedCounty){
 					const dataFilter = data.filter(function(d){return d.county==selectedCounty})
 					line
@@ -228,7 +245,15 @@ let drawLineCharts = () => {
 					  .x(function(d) { return x(d.day) })
 					  .y(function(d) { return y(+d.value) })
 					)
-					.attr("stroke", function(d){ return colorscale(selectedCounty)})
+					.attr("stroke", function(d){ return colorscale(selectedCounty)});
+
+					average_line
+					.transition()
+					.duration(1000)
+					.attr("stroke-width", 0.0)
+					.transition()
+					.duration(1000)
+					.attr("stroke-width", 4);
 
 				}
 
