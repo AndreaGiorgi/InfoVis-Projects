@@ -2,11 +2,13 @@ let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
 let lineChartData //Storage for linecharts data
 let svg = d3.select('#canvas') //D3 selection
+let slider = d3.sliderHorizontal()
 
 let projection
 let path
 let interval
-let slider = d3.sliderHorizontal()
+let time
+
 
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.130, 0.140, 0.141];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000', '#AF0000']).domain(color_domain);
@@ -19,11 +21,27 @@ const dateRange = ['17 July 2021', '18 July 2021', '19 July 2021', '20 July 2021
 '22 July 2021', '23 July 2021', '24 July 2021', '25 July 2021', '26 July 2021', '27 July 2021', '28 July 2021',
 '29 July 2021', '30 July 2021']; 
 
-let setTooltips = () => {
+let setDistrictTooltips = () => {
 
 	counties = svg.selectAll('.county');
 	counties.attr('data-tippy-content', (d, i) => {
 		return `County: ${d['properties']['county_name']}, Radiations value: ${d['properties']['average_radiation_value']} µSv/h`;
+	});
+
+	tippy(counties.nodes(), {
+		followCursor: 'true',
+		duration: 300,
+		inlinePositioning: true,
+		animation: 'fade',
+		arrow: true,
+	});
+}
+
+let setStationTooltips = () => {
+
+	counties = svg.selectAll('.station');
+	counties.attr('data-tippy-content', (d, i) => {
+		return `County: ${d['properties']['name']}, Radiations value: ${d['properties']['value' + time]} µSv/h`;
 	});
 
 	tippy(counties.nodes(), {
@@ -66,10 +84,6 @@ let setTimeSlider = () => {
     .append('g')
     .attr('transform', 'translate(30,30)')
     .call(slider);
-
-
-	//document.getElementById("date").innerHTML = sliderTime.value();
-
 }
 
 let drawMap = () => {
@@ -84,9 +98,6 @@ let drawMap = () => {
 		.enter()
 		.append('path')
 		.attr('d', path)
-		.attr("name", (d) =>{return d['properties']['county_name']})
-		.attr("capital", (d) => {return d['properties']['county_capital']})
-		.attr("radiations", (d) => {return d['properties']['average_radiation_value']})
 		.attr("opacity", 0.8)
 		.attr('stroke', "#F5FBEF")
 		.attr('stroke-width', 0.8)
@@ -112,7 +123,7 @@ let drawMap = () => {
 				.attr("opacity", 1)
 				.attr("stroke", "black")
 
-			setTooltips();
+			setDistrictTooltips();
 		
 		})
 		.on("mouseleave", function(d) {
@@ -131,29 +142,90 @@ let drawMap = () => {
 		})
 		.classed('svg-content-responsive', true);
 
+
+		/*svg.selectAll('path')
+		.data(stationsData)
+		.enter()
+		.append('path')
+		.attr('d', path)
+		.attr("opacity", 0.8)
+		.attr('stroke', "#F5FBEF")
+		.attr('stroke-width', 0.8)
+		.attr('fill', (d) => {
+			const value = d['properties']['value' + time];
+			if (value) {
+			  return color_legend(d['properties']['value' + time]);
+			} else {
+				return '#ccc';}
+			})
+		.attr("class", (d) => {return "station"})
+		.attr("text", this.name)
+		.on("mouseover",function(d){
+
+			d3.selectAll(".station")
+				.transition()
+				.duration(200)
+				.attr("opacity", .5)
+			
+		  	d3.select(this)
+				.transition()
+				.duration(200)
+				.attr("opacity", 1)
+				.attr("stroke", "black")
+
+			setStationTooltips();
+		
+		})
+		.on("mouseleave", function(d) {
+
+			d3.selectAll(".station")
+				.transition()
+				.duration(200)
+				.attr("opacity", .8)
+				.attr("stroke", "#F5FBEF")
+			
+			d3.select(this)
+				.transition()
+				.duration(200)
+				.attr("stroke", "#F5FBEF")
+
+		})*/
+
 }
 
-let transitionMap = (data) => {
+let transitionMap = (data, index) => {
 
 	svg.selectAll('path')
 		.data(data)
 		.transition()
 		.duration(1500)
-		.attr("name", (d) =>{return d['properties']['county_name']})
-		.attr("capital", (d) => {return d['properties']['county_capital']})
-		.attr("radiations", (d) => {return d['properties']['average_radiation_value']})
 		.attr('fill', (d) => {
-			const value = d['properties']['average_radiation_value'];
+			let value = d['properties']['average_radiation_value'];
 			if (value) {
 			  return color_legend(d['properties']['average_radiation_value']);
 			} else {
 				return '#ccc';}
 			})
+
+	/*svg.selectAll('path')
+		.data(stationsData)
+		.transition()
+		.duration(1500)
+		.attr('fill', (d) => {
+			let value = d['properties']['value' + index];
+			if (value) {
+				return color_legend(d['properties']['average_radiation_value']);
+			  } else {
+				  return '#ccc';}
+			  })
+
+		})
+		*/
 }
 
 playButton = () => {
 
-    let time = 0;
+	time = 0;
 	var transition_data;
     interval = setInterval(() => { 
       if (time <= 14) { 
@@ -172,7 +244,7 @@ playButton = () => {
 
 					document.getElementById("date").innerHTML = dateRange[time];
 					slider.value(slider_value)
-					transitionMap(transition_data);
+					transitionMap(transition_data, time);
 					time++;
 
 					
