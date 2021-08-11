@@ -200,7 +200,7 @@ playButton = () => {
 let drawLineCharts = () => {
 
 	const margin = {top: 30, right: 0, bottom: 30, left: 50},
-    width = 350 - margin.left - margin.right,
+    width = 400 - margin.left - margin.right,
     height = 350 - margin.top - margin.bottom;
 
 	const svg = d3.select(".multiple_charts")
@@ -226,12 +226,12 @@ let drawLineCharts = () => {
 					.text(function(d) {return d;}) //text
 					.attr("value", function(d) { return d;}) // returned value
 
-				const colorscale = d3.scaleOrdinal().domain(allCounties).range(["#92140C", "#FBAF00", "#EFCA08", "#143109", "#D64933","#119DA4", "#D5A021", "#7F6A93", "#5DA9E9","#E8CCBF", "#95C623", 
+				const colorscale = d3.scaleOrdinal().domain(allCounties).range(["#C20114", "#FBAF00", "#EFCA08", "#143109", "#D64933","#119DA4", "#D5A021", "#7F6A93", "#5DA9E9","#E8CCBF", "#95C623", 
 				"#E55812"]);
 
 				// Add X axis --> it is a date format
 				const x = d3.scaleLinear().domain(d3.extent(data, (d) => { return d.day;})).range([ 0, width ]);
-				svg.append("g").attr("transform", `translate(0, ${height})`).call(d3.axisBottom(x).ticks(14));
+				svg.append("g").attr("transform", `translate(0, ${height})`).call(d3.axisBottom(x).ticks(15));
 
 				const y = d3.scaleLinear().domain([0, 0.250]).range([height, 0 ]);
 				svg.append("g").call(d3.axisLeft(y).ticks(10));
@@ -276,7 +276,7 @@ let drawLineCharts = () => {
 							.x((d) => { return x(d.day)})
 							.y((d) => { return y(+d.value)})
 						)
-						.attr("stroke", "#92140C")
+						.attr("stroke", "#C20114")
 						.attr("stroke-width", 4)
 						.attr("fill", "none");
 	
