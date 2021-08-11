@@ -16,6 +16,7 @@ Used Technologies
 * HTML + CSS 
 * Javascript
 * Tippy.js (https://atomiks.github.io/tippyjs/)
+* d3-simple-slider (https://github.com/johnwalley/d3-simple-slider)
 * GeoJSON (https://geojson.org/)
 * TopoJSON (https://github.com/topojson/topojson)
 * Python 3.8.x
