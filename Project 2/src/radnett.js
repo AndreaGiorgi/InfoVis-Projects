@@ -2,7 +2,7 @@ let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
 let lineChartData //Storage for linecharts data
 let svg = d3.select('#canvas') //D3 selection
-let slider = d3.sliderHorizontal()
+let slider = d3.sliderHorizontal() //Initialize global Slider istance 
 
 let projection
 let path
@@ -21,6 +21,8 @@ const dateRange = ['17 July 2021', '18 July 2021', '19 July 2021', '20 July 2021
 '22 July 2021', '23 July 2021', '24 July 2021', '25 July 2021', '26 July 2021', '27 July 2021', '28 July 2021',
 '29 July 2021', '30 July 2021']; 
 
+/* setDistrictTooltips: Initialize and defines each district tooltip, showing County name and Radiation value */
+
 let setDistrictTooltips = () => {
 
 	counties = svg.selectAll('.county');
@@ -37,6 +39,8 @@ let setDistrictTooltips = () => {
 	});
 }
 
+/* setStationTooltips: Initialize and defines each station tooltip, showing County name and Radiation value */
+
 let setStationTooltips = () => {
 
 	counties = svg.selectAll('.station');
@@ -52,6 +56,8 @@ let setStationTooltips = () => {
 		arrow: true,
 	});
 }
+
+/* setTimeSlider: Define the date slider, each day change is associated to a new data file forcing the transition. */
 
 let setTimeSlider = () => {
 
