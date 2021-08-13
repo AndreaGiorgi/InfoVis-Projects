@@ -10,7 +10,7 @@ def main():
     for file in os.listdir(location):
         try:
            
-            if file.endswith(".json"):
+            if file.endswith("2021.json"):
     
                 with open(file) as jsonFile:
                     jsonObject = json.load(jsonFile)

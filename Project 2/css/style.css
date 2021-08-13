@@ -22,8 +22,8 @@ a {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto 2em auto;
-  min-height: 520px;
-  min-width: 870px;
+  min-height: 600px;
+  min-width: 900px;
 }
 
 .norway-map{
@@ -32,8 +32,8 @@ a {
     justify-content: center;
     flex-direction: column;
     margin: 0 auto 2em auto;
-    min-height: 520px;
-    min-width: 870px;
+    min-height: 600px;
+    min-width: 900px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -51,8 +51,6 @@ a {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
-  max-width: fit-content;
-  max-height: fit-content;
   align-self: center;
 }
 

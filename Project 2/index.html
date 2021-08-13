@@ -48,8 +48,7 @@
     </div>
     <div class="mid-summary">
         <p>From the visual representation showed above we can clearly see that the radiation levels during mid-July fits inside a normal behavior. 
-            The variation of data isn’t containing outliners, the only exception is in the county of Troms og Finnmark where there is a notable rise in radiations level 
-            in a single day. Radiation analysis makes it possible to carry out major studies on the incidence of diseases in local fauna and in humans with particular 
+            The variation of data isn’t containing outliners or missing values. Radiation analysis makes it possible to carry out major studies on the incidence of diseases in local fauna and in humans with particular 
             attention to those diseases that can lead to the onset of malignant or benign tumors.
         </p>
     </div>
@@ -64,8 +63,9 @@
             it will be possible to view the level of radiation throughout the entire observation period.
         </p>
     </div>
-    <div class = "dropdown-container">
+    <div class = "dropdown-container" style="align-items: center;">
         <select id="selectButton" style="align-items: center;"></select>
+        <svg id="legend_chart" height=150 width=250></svg>        
         <div class = "multiple_charts" style="text-align: center;"></div>
     </div>
 </body>

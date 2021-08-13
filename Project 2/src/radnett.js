@@ -1,17 +1,23 @@
 let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
+let stationsData
 let lineChartData //Storage for linecharts data
 let svg = d3.select('#canvas') //D3 selection
 let slider = d3.sliderHorizontal() //Initialize global Slider istance 
+let time = 0
 
 let projection
 let path
 let interval
-let time
+let path_station
+
 
 
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.130, 0.140, 0.141];
+const color_domain_stations = [0.060, 0.080, 0,085, 0.090, 0.095, 0.100, 0.110, 0.120, 0.130, 0.135, 0.141];
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000', '#AF0000']).domain(color_domain);
+const color_legend_stations = d3.scaleThreshold().range(['#FFF9F9', 'FFCCCC','#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#C10000', '#B30C0C','#D30000', '#AF0000']).domain(color_domain_stations);
+
 
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json', 
@@ -21,75 +27,101 @@ const dateRange = ['17 July 2021', '18 July 2021', '19 July 2021', '20 July 2021
 '22 July 2021', '23 July 2021', '24 July 2021', '25 July 2021', '26 July 2021', '27 July 2021', '28 July 2021',
 '29 July 2021', '30 July 2021']; 
 
-/* setDistrictTooltips: Initialize and defines each district tooltip, showing County name and Radiation value */
 
-let setDistrictTooltips = () => {
-
-	counties = svg.selectAll('.county');
-	counties.attr('data-tippy-content', (d, i) => {
-		return `County: ${d['properties']['county_name']}, Radiations value: ${d['properties']['average_radiation_value']} µSv/h`;
-	});
-
-	tippy(counties.nodes(), {
-		followCursor: 'true',
-		duration: 300,
-		inlinePositioning: true,
-		animation: 'fade',
-		arrow: true,
-	});
-}
 
 /* setStationTooltips: Initialize and defines each station tooltip, showing County name and Radiation value */
 
 let setStationTooltips = () => {
 
-	counties = svg.selectAll('.station');
-	counties.attr('data-tippy-content', (d, i) => {
-		return `County: ${d['properties']['name']}, Radiations value: ${d['properties']['value' + time]} µSv/h`;
+	index = time.toString()
+	stations = svg.selectAll('.station');
+	stations.attr('data-tippy-content', (d, i) => {
+		return `Station: ${d['properties']['name']}, County: ${d['properties']['county']}, Radiations value: ${d['properties']['value' + index]} µSv/h`;
 	});
 
-	tippy(counties.nodes(), {
+	tippy(stations.nodes(), {
 		followCursor: 'true',
 		duration: 300,
 		inlinePositioning: true,
 		animation: 'fade',
 		arrow: true,
 	});
+	
 }
+
 
 /* setTimeSlider: Define the date slider, each day change is associated to a new data file forcing the transition. */
 
 let setTimeSlider = () => {
 
 	slider
-    .min(16)
-    .max(30)
-    .step(1)
-    .width(450)
-    .displayValue(true)
-    .on('onchange', (val) => {
-		document.getElementById("date").innerHTML = val + ' July 2021';
-		index = val - 16;
-		d3.json(norwayDatasets[index]).then(
-			(data, error) => {
-				if (error) {
-					console.log(error);
-				}else{
-					rawData = topojson.feature(data, data.objects.map_data_topo);
-					projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
-					path = d3.geoPath().projection(projection);
-					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
-					transitionMap(transition_data);
-				}})
-    });
+		.min(16)
+		.max(30)
+		.step(1)
+		.width(450)
+		.displayValue(true)
+		.on('onchange', (val) => {
+			document.getElementById("date").innerHTML = val + ' July 2021';
+			index = val - 16;
+			time = index;
+			d3.json(norwayDatasets[index]).then(
+				(data, error) => {
+					if (error) {
+						console.log(error);
+					}else{
+						rawData = topojson.feature(data, data.objects.map_data_topo);
+						projection = d3.geoMercator().fitSize([870, 520], rawNorwayData);
+						path = d3.geoPath().projection(projection);
+						transition_data = topojson.feature(data, data.objects.map_data_topo).features;
+						transitionMap(transition_data);
+					}})
+		});
 
 	d3.select('#slider')
-    .append('svg')
-    .attr('width', 500)
-    .attr('height', 70)
-    .append('g')
-    .attr('transform', 'translate(30,30)')
-    .call(slider);
+		.append('svg')
+		.attr('width', 500)
+		.attr('height', 70)
+		.append('g')
+		.attr('transform', 'translate(30,30)') 
+		.call(slider);
+}
+
+let drawStations = () => {
+
+	d3.json('data\/map_data_stations.json').then(
+		(data, error) => {
+			if (error) {  
+				console.log(error);
+			}else{
+
+				path_station = d3.geoPath().projection(projection);
+				stationsData = topojson.feature(data, data.objects.map_data_stations).features;
+				
+				console.log(stationsData)
+
+				svg.selectAll('path')
+				.data(stationsData)
+				.enter()
+				.append('path')
+				.attr('d', path)
+				.attr("opacity", 0.8)
+				.attr('stroke', "#080705")
+				.attr('stroke-width', 1)
+				.attr('fill', (d) => {
+					const value = d['properties']['value0'];
+					if (value) {
+					return color_legend_stations(d['properties']['value0']);
+					} else {
+						return '#ccc';}
+					})
+				.attr("class", (d) => {return "station"})
+				.on("mouseover",function(d){
+					setStationTooltips();
+				})
+				.classed('svg-content-responsive', true);
+			}
+		}
+	)
 }
 
 let drawMap = () => {
@@ -106,7 +138,7 @@ let drawMap = () => {
 		.attr('d', path)
 		.attr("opacity", 0.8)
 		.attr('stroke', "#F5FBEF")
-		.attr('stroke-width', 0.8)
+		.attr('stroke-width', 1)
 		.attr('fill', (d) => {
 			const value = d['properties']['average_radiation_value'];
 			if (value) {
@@ -115,7 +147,6 @@ let drawMap = () => {
 				return '#ccc';}
 			})
 		.attr("class", (d) => {return "county"})
-		.attr("text", this.name)
 		.on("mouseover",function(d){
 
 			d3.selectAll(".county")
@@ -128,9 +159,7 @@ let drawMap = () => {
 				.duration(200)
 				.attr("opacity", 1)
 				.attr("stroke", "black")
-
-			setDistrictTooltips();
-		
+			
 		})
 		.on("mouseleave", function(d) {
 
@@ -147,59 +176,26 @@ let drawMap = () => {
 
 		})
 		.classed('svg-content-responsive', true);
+}
 
+let transitionStations = (day) => {
 
-		/*svg.selectAll('path')
+	index = day.toString()
+	svg.selectAll('path')
 		.data(stationsData)
-		.enter()
-		.append('path')
-		.attr('d', path)
-		.attr("opacity", 0.8)
-		.attr('stroke', "#F5FBEF")
-		.attr('stroke-width', 0.8)
+		.transition()
+		.duration(1500)
 		.attr('fill', (d) => {
-			const value = d['properties']['value' + time];
+			let value = d['properties']['value' + index];
 			if (value) {
-			  return color_legend(d['properties']['value' + time]);
+				return color_legend_stations(d['properties']['value' + index]);
 			} else {
 				return '#ccc';}
 			})
-		.attr("class", (d) => {return "station"})
-		.attr("text", this.name)
-		.on("mouseover",function(d){
-
-			d3.selectAll(".station")
-				.transition()
-				.duration(200)
-				.attr("opacity", .5)
-			
-		  	d3.select(this)
-				.transition()
-				.duration(200)
-				.attr("opacity", 1)
-				.attr("stroke", "black")
-
-			setStationTooltips();
-		
-		})
-		.on("mouseleave", function(d) {
-
-			d3.selectAll(".station")
-				.transition()
-				.duration(200)
-				.attr("opacity", .8)
-				.attr("stroke", "#F5FBEF")
-			
-			d3.select(this)
-				.transition()
-				.duration(200)
-				.attr("stroke", "#F5FBEF")
-
-		})*/
 
 }
 
-let transitionMap = (data, index) => {
+let transitionMap = (data) => {
 
 	svg.selectAll('path')
 		.data(data)
@@ -212,26 +208,11 @@ let transitionMap = (data, index) => {
 			} else {
 				return '#ccc';}
 			})
-
-	/*svg.selectAll('path')
-		.data(stationsData)
-		.transition()
-		.duration(1500)
-		.attr('fill', (d) => {
-			let value = d['properties']['value' + index];
-			if (value) {
-				return color_legend(d['properties']['average_radiation_value']);
-			  } else {
-				  return '#ccc';}
-			  })
-
-		})
-		*/
 }
 
 playButton = () => {
 
-	time = 0;
+	let time = 0
 	var transition_data;
     interval = setInterval(() => { 
       if (time <= 14) { 
@@ -249,10 +230,10 @@ playButton = () => {
 					transition_data = topojson.feature(data, data.objects.map_data_topo).features;
 
 					document.getElementById("date").innerHTML = dateRange[time];
+					transitionStations(time);
 					slider.value(slider_value)
-					transitionMap(transition_data, time);
+					transitionMap(transition_data);
 					time++;
-
 					
 			}})}
       else { 
@@ -314,6 +295,7 @@ let drawLineCharts = () => {
 				const y = d3.scaleLinear().domain([0, 0.250]).range([height, 0 ]);
 				svg.append("g").call(d3.axisLeft(y).ticks(10));
 
+				const legend = d3.select("#legend_chart")
 
 				const line = svg
 					.append("g")
@@ -323,10 +305,11 @@ let drawLineCharts = () => {
 						d3.line()
 						.x((d) => { return x(d.day)})
 						.y((d) => { return y(+d.value)})
+						.curve(d3.curveNatural)
 					)
 					.attr("stroke", (d) => {return colorscale(d.county)})
 					.attr("stroke-width", 4)
-					.attr("fill", "none");
+					.attr('fill', 'transparent')
 
 					svg.append("text")
 						.attr("transform", "rotate(-90)")
@@ -345,7 +328,39 @@ let drawLineCharts = () => {
 						.style("text-anchor", "end")
 						.text("Day");
 
-					const average_line = svg
+				legend
+					.append("circle")
+					.attr("class", "average")
+					.attr("cx",50)
+					.attr("cy", 50)
+					.attr("r", 6)
+					.attr("fill", "#C20114")
+				
+				legend
+					.append("text")
+					.attr("class", "average")
+					.attr("x", 70)
+					.attr("y", 50)
+					.text("National Average")
+					.style("font-size", "15px")
+		
+				legend
+					.append("circle")
+					.attr("class", "county_legend_circle")
+					.attr("cx",50)
+					.attr("cy", 90)
+					.attr("r", 6)
+					.attr("fill", "none")
+
+				legend
+					.append("text")
+					.attr("class", "county_legend")
+					.attr("x", 70)
+					.attr("y", 90)
+					.text("")
+					.style("font-size", "15px")
+
+				const average_line = svg
 						.append("g")
 						.append("path")
 						.datum(data.filter(function(d){return d.county == "Norway"}))
@@ -353,33 +368,56 @@ let drawLineCharts = () => {
 							d3.line()
 							.x((d) => { return x(d.day)})
 							.y((d) => { return y(+d.value)})
+							.curve(d3.curveNatural)
 						)
+						.attr('fill', 'transparent')
 						.attr("stroke", "#C20114")
 						.attr("stroke-width", 4)
-						.attr("fill", "none");
-	
 
+			
 				function update(selectedCounty){
+					var color
 					const dataFilter = data.filter(function(d){return d.county==selectedCounty})
+
 					line
 					.datum(dataFilter)
 					.transition()
-					.duration(1000)
+					.duration(1500)
 					.attr("d", d3.line()
 					  .x(function(d) { return x(d.day) })
 					  .y(function(d) { return y(+d.value) })
+					  .curve(d3.curveNatural)
 					)
-					.attr("stroke", function(d){ return colorscale(selectedCounty)});
+					.attr("stroke", function(d){ color = colorscale(selectedCounty); return color});
+
+					legend_county = d3.select(".county_legend")
+
+					legend_county
+						.transition()
+						.duration(500)
+						.style("font-size", "0px")
+						.transition()
+						.duration(500)
+						.style("font-size", "15px")
+						.text(selectedCounty)
+
+					legend_circle = d3.select(".county_legend_circle")
+
+					legend_circle
+						.transition()
+						.duration(1000)
+						.attr("fill", color)
 
 					average_line
-					.transition()
-					.duration(800)
-					.attr("stroke-width", 0.0)
-					.transition()
-					.duration(1500)
-					.attr("stroke-width", 4);
+						.transition()
+						.duration(800)
+						.attr("stroke-width", 0)
+						.transition()
+						.duration(1500)
+						.attr("stroke-width", 4);
 
 				}
+
 
 				d3.select("#selectButton").on("change", function(event, d) {
 					const selectedOption = d3.select(this).property("value")
@@ -396,13 +434,14 @@ d3.json(norwayDatasets[0]).then(
 			console.log(error);
 		}else{
 			rawNorwayData = topojson.feature(data, data.objects.map_data_topo);
-			projection = d3.geoMercator().fitSize([670, 520], rawNorwayData);
+			projection = d3.geoMercator().fitSize([800, 600], rawNorwayData);
 			path = d3.geoPath().projection(projection);
 			
 			norwayData = topojson.feature(data, data.objects.map_data_topo).features;
 			console.log(norwayData);
-
 			drawMap();
 			drawLineCharts();
-	 }
-	})
+			drawStations();
+	 				}
+				}
+			)

@@ -26,7 +26,8 @@
 		  "value11": "0.078",
 		  "value12": "0.078",
 		  "value13": "0.080",
-		  "value14": "0.079"
+		  "value14": "0.079",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -40,21 +41,22 @@
 		},
 		"properties": {
 		  "name": "Hammerfest",
-		  "value0": "0.079",
+		  "value0": 0.079,
 		  "value1": "0.080",
 		  "value2": "0.080",
-		  "value3": "0.082",
-		  "value4": "0.081",
+		  "value3": 0.082,
+		  "value4": 0.081,
 		  "value5": "0.080",
-		  "value6": "0.078",
-		  "value7": "0.078",
-		  "value8": "0.078",
-		  "value9": "0.078",
-		  "value10": "0.079",
-		  "value11": "0.079",
-		  "value12": "0.079",
-		  "value13": "0.079",
-		  "value14": "0.080"
+		  "value6": 0.078,
+		  "value7": 0.078,
+		  "value8": 0.078,
+		  "value9": 0.078,
+		  "value10": 0.079,
+		  "value11": 0.079,
+		  "value12": 0.079,
+		  "value13": 0.079,
+		  "value14": "0.080",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -82,7 +84,8 @@
 		  "value11": "0.077",
 		  "value12": "0.077",
 		  "value13": "0.077",
-		  "value14": "0.077"
+		  "value14": "0.077",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -110,7 +113,8 @@
 		  "value11": "0.075",
 		  "value12": "0.076",
 		  "value13": "0.077",
-		  "value14": "0.077"
+		  "value14": "0.077",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -138,7 +142,8 @@
 		  "value11": "0.069",
 		  "value12": "0.069",
 		  "value13": "0.072",
-		  "value14": "0.071"
+		  "value14": "0.071",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -166,7 +171,8 @@
 		  "value11": "0.078",
 		  "value12": "0.077",
 		  "value13": "0.078",
-		  "value14": "0.079"
+		  "value14": "0.079",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -194,7 +200,8 @@
 		  "value11": "0.065",
 		  "value12": "0.065",
 		  "value13": "0.065",
-		  "value14": "0.065"
+		  "value14": "0.065",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -222,7 +229,8 @@
 		  "value11": "0.095",
 		  "value12": "0.095",
 		  "value13": "0.096",
-		  "value14": "0.097"
+		  "value14": "0.097",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -250,7 +258,8 @@
 		  "value11": "0.120",
 		  "value12": "0.120",
 		  "value13": "0.120",
-		  "value14": "0.120"
+		  "value14": "0.120",
+		  "county": "Troms og Finnmark"
 		}
 	  },
 	  {
@@ -278,7 +287,8 @@
 		  "value11": "0.101",
 		  "value12": "0.101",
 		  "value13": "0.103",
-		  "value14": "0.103"
+		  "value14": "0.103",
+		  "county": "Nordland"
 		}
 	  },
 	  {
@@ -306,7 +316,8 @@
 		  "value11": "0.104",
 		  "value12": "0.104",
 		  "value13": "0.104",
-		  "value14": "0.104"
+		  "value14": "0.104",
+		  "county": "Nordland"
 		}
 	  },
 	  {
@@ -334,7 +345,8 @@
 		  "value11": "0.091",
 		  "value12": "0.092",
 		  "value13": "0.092",
-		  "value14": "0.090"
+		  "value14": "0.090",
+		  "county": "Nordland"
 		}
 	  },
 	  {
@@ -362,7 +374,8 @@
 		  "value11": "0.066",
 		  "value12": "0.068",
 		  "value13": "0.067",
-		  "value14": "0.068"
+		  "value14": "0.068",
+		  "county": "Nordland"
 		}
 	  },
 	  {
@@ -390,7 +403,8 @@
 		  "value11": "0.069",
 		  "value12": "0.071",
 		  "value13": "0.073",
-		  "value14": "0.067"
+		  "value14": "0.067",
+		  "county": "Trøndelag"
 		}
 	  },
 	  {
@@ -418,7 +432,8 @@
 		  "value11": "0.100",
 		  "value12": "0.102",
 		  "value13": "0.103",
-		  "value14": "0.101"
+		  "value14": "0.101",
+		  "county": "Trøndelag"
 		}
 	  },
 	  {
@@ -446,7 +461,8 @@
 		  "value11": "0.104",
 		  "value12": "0.105",
 		  "value13": "0.104",
-		  "value14": "0.105"
+		  "value14": "0.105",
+		  "county": "Trøndelag"
 		}
 	  },
 	  {
@@ -474,7 +490,8 @@
 		  "value11": "0.090",
 		  "value12": "0.091",
 		  "value13": "0.091",
-		  "value14": "0.091"
+		  "value14": "0.091",
+		  "county": "Møre og Romsdal"
 		}
 	  },
 	  {
@@ -482,8 +499,8 @@
 		"geometry": {
 		  "type": "Point",
 		  "coordinates": [
-			8.98,
-			58.56
+			5.62,
+			62.4
 		  ]
 		},
 		"properties": {
@@ -502,7 +519,8 @@
 		  "value11": "0.111",
 		  "value12": "0.112",
 		  "value13": "0.112",
-		  "value14": "0.112"
+		  "value14": "0.112",
+		  "county": "Møre og Romsdal"
 		}
 	  },
 	  {
@@ -530,7 +548,8 @@
 		  "value11": "0.146",
 		  "value12": "0.146",
 		  "value13": "0.145",
-		  "value14": "0.145"
+		  "value14": "0.145",
+		  "county": "Innlandet"
 		}
 	  },
 	  {
@@ -558,7 +577,8 @@
 		  "value11": "0.094",
 		  "value12": "0.093",
 		  "value13": "0.093",
-		  "value14": "0.092"
+		  "value14": "0.092",
+		  "county": "Innlandet"
 		}
 	  },
 	  {
@@ -586,7 +606,8 @@
 		  "value11": "0.120",
 		  "value12": "0.125",
 		  "value13": "0.118",
-		  "value14": "0.118"
+		  "value14": "0.118",
+		  "county": "Vestland"
 		}
 	  },
 	  {
@@ -614,7 +635,8 @@
 		  "value11": "0.116",
 		  "value12": "0.113",
 		  "value13": "0.114",
-		  "value14": "0.111"
+		  "value14": "0.111",
+		  "county": "Innlandet"
 		}
 	  },
 	  {
@@ -642,7 +664,8 @@
 		  "value11": "0.171",
 		  "value12": "0.162",
 		  "value13": "0.161",
-		  "value14": "0.160"
+		  "value14": "0.160",
+		  "county": "Viken"
 		}
 	  },
 	  {
@@ -670,7 +693,8 @@
 		  "value11": "0.120",
 		  "value12": "0.119",
 		  "value13": "0.120",
-		  "value14": "0.120"
+		  "value14": "0.120",
+		  "county": "Vestland"
 		}
 	  },
 	  {
@@ -698,7 +722,8 @@
 		  "value11": "0.143",
 		  "value12": "0.135",
 		  "value13": "0.135",
-		  "value14": "0.136"
+		  "value14": "0.136",
+		  "county": "Viken"
 		}
 	  },
 	  {
@@ -726,7 +751,8 @@
 		  "value11": "0.141",
 		  "value12": "0.141",
 		  "value13": "0.141",
-		  "value14": "0.141"
+		  "value14": "0.141",
+		  "county": "Oslo"
 		}
 	  },
 	  {
@@ -754,7 +780,8 @@
 		  "value11": "0.103",
 		  "value12": "0.104",
 		  "value13": "0.101",
-		  "value14": "0.100"
+		  "value14": "0.100",
+		  "county": "Vestfold og Telemark"
 		}
 	  },
 	  {
@@ -782,7 +809,8 @@
 		  "value11": "0.109",
 		  "value12": "0.107",
 		  "value13": "0.105",
-		  "value14": "0.105"
+		  "value14": "0.105",
+		  "county": "Viken"
 		}
 	  },
 	  {
@@ -810,7 +838,8 @@
 		  "value11": "0.144",
 		  "value12": "0.142",
 		  "value13": "0.142",
-		  "value14": "0.142"
+		  "value14": "0.142",
+		  "county": "Vestfold og Telemark"
 		}
 	  },
 	  {
@@ -838,7 +867,8 @@
 		  "value11": "0.134",
 		  "value12": "0.127",
 		  "value13": "0.127",
-		  "value14": "0.127"
+		  "value14": "0.127",
+		  "county": "Rogaland"
 		}
 	  },
 	  {
@@ -866,7 +896,8 @@
 		  "value11": "0.081",
 		  "value12": "0.081",
 		  "value13": "0.082",
-		  "value14": "0.081"
+		  "value14": "0.081",
+		  "county": "Agder"
 		}
 	  },
 	  {
@@ -894,7 +925,327 @@
 		  "value11": "0.109",
 		  "value12": "0.107",
 		  "value13": "0.107",
-		  "value14": "0.106"
+		  "value14": "0.106",
+		  "county": "Agder"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			27.83,
+			71.03
+		  ]
+		},
+		"properties": {
+		  "name": "Mehamn",
+		  "value0": "0.080",
+		  "value1": "0.081",
+		  "value2": "0.081",
+		  "value3": "0.082",
+		  "value4": "0.081",
+		  "value5": "0.080",
+		  "value6": "0.078",
+		  "value7": "0.079",
+		  "value8": "0.078",
+		  "value9": "0.078",
+		  "value10": "0.078",
+		  "value11": "0.078",
+		  "value12": "0.078",
+		  "value13": "0.080",
+		  "value14": "0.079",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			23.67,
+			70.67
+		  ]
+		},
+		"properties": {
+		  "name": "Hammerfest",
+		  "value0": "0.079",
+		  "value1": "0.080",
+		  "value2": "0.080",
+		  "value3": "0.082",
+		  "value4": "0.081",
+		  "value5": "0.080",
+		  "value6": "0.078",
+		  "value7": "0.078",
+		  "value8": "0.078",
+		  "value9": "0.078",
+		  "value10": "0.079",
+		  "value11": "0.079",
+		  "value12": "0.079",
+		  "value13": "0.079",
+		  "value14": "0.080",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			30.91,
+			70.37
+		  ]
+		},
+		"properties": {
+		  "name": "Vardø",
+		  "value0": "0.079",
+		  "value1": "0.079",
+		  "value2": "0.080",
+		  "value3": "0.080",
+		  "value4": "0.080",
+		  "value5": "0.080",
+		  "value6": "0.079",
+		  "value7": "0.078",
+		  "value8": "0.079",
+		  "value9": "0.077",
+		  "value10": "0.077",
+		  "value11": "0.077",
+		  "value12": "0.077",
+		  "value13": "0.077",
+		  "value14": "0.077",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			20.95,
+			69.79
+		  ]
+		},
+		"properties": {
+		  "name": "Sørkjosen",
+		  "value0": "0.076",
+		  "value1": "0.077",
+		  "value2": "0.077",
+		  "value3": "0.079",
+		  "value4": "0.077",
+		  "value5": "0.077",
+		  "value6": "0.076",
+		  "value7": "0.075",
+		  "value8": "0.075",
+		  "value9": "0.075",
+		  "value10": "0.074",
+		  "value11": "0.075",
+		  "value12": "0.076",
+		  "value13": "0.077",
+		  "value14": "0.077",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			18.94,
+			69.65
+		  ]
+		},
+		"properties": {
+		  "name": "Tromsø",
+		  "value0": "0.069",
+		  "value1": "0.070",
+		  "value2": "0.070",
+		  "value3": "0.071",
+		  "value4": "0.069",
+		  "value5": "0.069",
+		  "value6": "0.068",
+		  "value7": "0.068",
+		  "value8": "0.069",
+		  "value9": "0.068",
+		  "value10": "0.068",
+		  "value11": "0.069",
+		  "value12": "0.069",
+		  "value13": "0.072",
+		  "value14": "0.071",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			25.3,
+			69.61
+		  ]
+		},
+		"properties": {
+		  "name": "Karasjok",
+		  "value0": "0.077",
+		  "value1": "0.078",
+		  "value2": "0.079",
+		  "value3": "0.079",
+		  "value4": "0.078",
+		  "value5": "0.078",
+		  "value6": "0.077",
+		  "value7": "0.076",
+		  "value8": "0.077",
+		  "value9": "0.076",
+		  "value10": "0.077",
+		  "value11": "0.078",
+		  "value12": "0.077",
+		  "value13": "0.078",
+		  "value14": "0.079",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			30.04,
+			69.46
+		  ]
+		},
+		"properties": {
+		  "name": "Svanhovd",
+		  "value0": "0.066",
+		  "value1": "0.068",
+		  "value2": "0.069",
+		  "value3": "0.067",
+		  "value4": "0.066",
+		  "value5": "0.066",
+		  "value6": "0.065",
+		  "value7": "0.064",
+		  "value8": "0.064",
+		  "value9": "0.064",
+		  "value10": "0.064",
+		  "value11": "0.065",
+		  "value12": "0.065",
+		  "value13": "0.065",
+		  "value14": "0.065",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			23.02,
+			69.02
+		  ]
+		},
+		"properties": {
+		  "name": "Kautokeino",
+		  "value0": "0.094",
+		  "value1": "0.096",
+		  "value2": "0.097",
+		  "value3": "0.096",
+		  "value4": "0.095",
+		  "value5": "0.095",
+		  "value6": "0.094",
+		  "value7": "0.094",
+		  "value8": "0.094",
+		  "value9": "0.094",
+		  "value10": "0.094",
+		  "value11": "0.095",
+		  "value12": "0.095",
+		  "value13": "0.096",
+		  "value14": "0.097",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			16.54,
+			68.8
+		  ]
+		},
+		"properties": {
+		  "name": "Harstad",
+		  "value0": "0.120",
+		  "value1": "0.122",
+		  "value2": "0.120",
+		  "value3": "0.121",
+		  "value4": "0.120",
+		  "value5": "0.120",
+		  "value6": "0.119",
+		  "value7": "0.118",
+		  "value8": "0.119",
+		  "value9": "0.118",
+		  "value10": "0.119",
+		  "value11": "0.120",
+		  "value12": "0.120",
+		  "value13": "0.120",
+		  "value14": "0.120",
+		  "county": "Troms og Finnmark"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			14.57,
+			68.24
+		  ]
+		},
+		"properties": {
+		  "name": "Svolvær",
+		  "value0": "0.101",
+		  "value1": "0.102",
+		  "value2": "0.101",
+		  "value3": "0.103",
+		  "value4": "0.102",
+		  "value5": "0.101",
+		  "value6": "0.101",
+		  "value7": "0.101",
+		  "value8": "0.101",
+		  "value9": "0.100",
+		  "value10": "0.101",
+		  "value11": "0.101",
+		  "value12": "0.101",
+		  "value13": "0.103",
+		  "value14": "0.103",
+		  "county": "Nordland"
+		}
+	  },
+	  {
+		"type": "Feature",
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [
+			14.39,
+			67.27
+		  ]
+		},
+		"properties": {
+		  "name": "Bodø",
+		  "value0": "0.100",
+		  "value1": "0.102",
+		  "value2": "0.099",
+		  "value3": "0.100",
+		  "value4": "0.100",
+		  "value5": "0.101",
+		  "value6": "0.098",
+		  "value7": "0.100",
+		  "value8": "0.099",
+		  "value9": "0.099",
+		  "value10": "0.101",
+		  "value11": "0.104",
+		  "value12": "0.104",
+		  "value13": "0.104",
+		  "value14": "0.104",
+		  "county": "Nordland"
 		}
 	  }
 	]
