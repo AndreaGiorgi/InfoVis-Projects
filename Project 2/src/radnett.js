@@ -1,6 +1,6 @@
 let norwayData //Storage for topology data
 let rawNorwayData //Storage for raw geojson data
-let stationsData
+let stationsData //Storage for stations data
 let lineChartData //Storage for linecharts data
 let svg = d3.select('#canvas') //D3 selection
 let slider = d3.sliderHorizontal() //Initialize global Slider istance 
@@ -15,10 +15,12 @@ let path_station
 
 const color_domain = [0.080, 0.090, 0.100, 0.110, 0.120, 0.130, 0.140, 0.141];
 const color_domain_stations = [0.060, 0.080, 0,085, 0.090, 0.095, 0.100, 0.110, 0.120, 0.130, 0.135, 0.141];
+
+// For station color mapping some more shades are present. This new shades are needed for better visualization
 const color_legend = d3.scaleThreshold().range(['#FFCCCC', '#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#D30000', '#AF0000']).domain(color_domain);
 const color_legend_stations = d3.scaleThreshold().range(['#FFF9F9', 'FFCCCC','#FFB3B3', '#FF9999', '#FF6666',  '#FF3333', '#FF1A1A', '#C10000', '#B30C0C','#D30000', '#AF0000']).domain(color_domain_stations);
 
-
+//List containing all topology data paths
 const norwayDatasets = ['data\/map_data_1617.json','data\/map_data_1718.json','data\/map_data_1819.json','data\/map_data_1920.json','data\/map_data_2021.json',
 	'data\/map_data_2122.json','data\/map_data_2223.json','data\/map_data_2324.json','data\/map_data_2425.json','data\/map_data_2526.json', 
 	'data\/map_data_2627.json', 'data\/map_data_2728.json', 'data\/map_data_2829.json', 'data\/map_data_2930.json', 'data\/map_data_3031.json'];
@@ -86,6 +88,8 @@ let setTimeSlider = () => {
 		.call(slider);
 }
 
+/* drawStations: using map_data_stations topology data draws each single station on norwegian territory. #Stations = 33 */
+
 let drawStations = () => {
 
 	d3.json('data\/map_data_stations.json').then(
@@ -123,6 +127,8 @@ let drawStations = () => {
 		}
 	)
 }
+
+/* drawMap: Using norwayData it plots a choropleth using as territory the norwegian one. */
 
 let drawMap = () => {
 
@@ -178,6 +184,8 @@ let drawMap = () => {
 		.classed('svg-content-responsive', true);
 }
 
+/* transitionStations: takes day as input and use it for accessing the right value to plot alongside the map transitions */
+
 let transitionStations = (day) => {
 
 	index = day.toString()
@@ -195,6 +203,8 @@ let transitionStations = (day) => {
 
 }
 
+/* transitionMap: takes "data" as input and uses it for plotting the new topology data based on the day of observation */
+
 let transitionMap = (data) => {
 
 	svg.selectAll('path')
@@ -209,6 +219,8 @@ let transitionMap = (data) => {
 				return '#ccc';}
 			})
 }
+
+/* Script for the animation play button*/
 
 playButton = () => {
 
@@ -242,7 +254,9 @@ playButton = () => {
     }, 2500);
   }
 
-  resetButton = () => {
+/* Script for the animation reset button */
+  
+resetButton = () => {
 
 	clearInterval(interval);
 	document.getElementById("play-button").style.display = 'block';
@@ -255,6 +269,10 @@ playButton = () => {
 	clearTimeout(reset);
   }
 
+/* Using a dedicated dataset it draws each county linechart. The linechart will show the radiation change during the 
+  observation period. It draws also an average line showing the average radiation trend in Norway. It defines also a dynamic
+  legend improving the capabilities of the line charts. 
+*/
 
 let drawLineCharts = () => {
 
@@ -276,6 +294,8 @@ let drawLineCharts = () => {
 			}else{
 				const allCounties = new Set(data.map(d => d.county))
 				console.log(allCounties)
+				
+				var reset = 0;
 
 				d3.select("#selectButton")
 					.selectAll('counties')
@@ -311,22 +331,37 @@ let drawLineCharts = () => {
 					.attr("stroke-width", 4)
 					.attr('fill', 'transparent')
 
-					svg.append("text")
-						.attr("transform", "rotate(-90)")
-						.attr("y", 0 - margin.left)
-						.attr("x", - 50)
-						.attr("dy", "1em")
-						.attr("font-size", "0.75em")
-						.style("text-anchor", "middle")
-						.text("Average µSv/h");
+				svg.append("text")
+					.attr("transform", "rotate(-90)")
+					.attr("y", 0 - margin.left)
+					.attr("x", - 50)
+					.attr("dy", "1em")
+					.attr("font-size", "0.75em")
+					.style("text-anchor", "middle")
+					.text("Average µSv/h");
 
-					svg.append("text")
-						.attr("y", height + 28)
-						.attr("x", (width/2))
-						.attr("dx", "1em")
-						.attr("font-size", "0.75em")
-						.style("text-anchor", "end")
-						.text("Day");
+				svg.append("text")
+					.attr("y", height + 28)
+					.attr("x", (width/2))
+					.attr("dx", "1em")
+					.attr("font-size", "0.75em")
+					.style("text-anchor", "end")
+					.text("Day");
+
+
+				const average_line = svg
+						.append("g")
+						.append("path")
+						.datum(data.filter(function(d){return d.county == "Norway"}))
+						.attr("d", 
+							d3.line()
+							.x((d) => { return x(d.day)})
+							.y((d) => { return y(+d.value)})
+							.curve(d3.curveNatural)
+						)
+						.attr('fill', 'transparent')
+						.attr("stroke", "#C20114")
+						.attr("stroke-width", 4)
 
 				legend
 					.append("circle")
@@ -360,53 +395,69 @@ let drawLineCharts = () => {
 					.text("")
 					.style("font-size", "15px")
 
-				const average_line = svg
-						.append("g")
-						.append("path")
-						.datum(data.filter(function(d){return d.county == "Norway"}))
-						.attr("d", 
-							d3.line()
-							.x((d) => { return x(d.day)})
-							.y((d) => { return y(+d.value)})
-							.curve(d3.curveNatural)
-						)
-						.attr('fill', 'transparent')
-						.attr("stroke", "#C20114")
-						.attr("stroke-width", 4)
-
 			
 				function update(selectedCounty){
 					var color
 					const dataFilter = data.filter(function(d){return d.county==selectedCounty})
 
+					/* if reset allows to recreate the removed elements of the legend. This elements are removed when the end user
+						selects again "Norway"
+					*/
+
+					if(reset == 1){
+						legend
+							.append("circle")
+							.attr("class", "county_legend_circle")
+							.attr("cx",50)
+							.attr("cy", 90)
+							.attr("r", 6)
+							.attr("fill", "none")
+
+						legend
+							.append("text")
+							.attr("class", "county_legend")
+							.attr("x", 70)
+							.attr("y", 90)
+							.text("")
+							.style("font-size", "15px")
+
+						reset = 0;
+					}
+
 					line
-					.datum(dataFilter)
-					.transition()
-					.duration(1500)
-					.attr("d", d3.line()
-					  .x(function(d) { return x(d.day) })
-					  .y(function(d) { return y(+d.value) })
-					  .curve(d3.curveNatural)
-					)
-					.attr("stroke", function(d){ color = colorscale(selectedCounty); return color});
+						.datum(dataFilter)
+						.transition()
+						.duration(1500)
+						.attr("d", d3.line()
+						.x(function(d) { return x(d.day) })
+						.y(function(d) { return y(+d.value) })
+						.curve(d3.curveNatural)
+						)
+						.attr("stroke", function(d){ color = colorscale(selectedCounty); return color});
 
 					legend_county = d3.select(".county_legend")
 
-					legend_county
-						.transition()
-						.duration(500)
-						.style("font-size", "0px")
-						.transition()
-						.duration(500)
-						.style("font-size", "15px")
-						.text(selectedCounty)
+					if(selectedCounty != "Norway"){
+						legend_county
+							.transition()
+							.duration(200)
+							.style("font-size", "0px")
+							.transition()
+							.duration(800)
+							.style("font-size", "15px")
+							.text(selectedCounty)
 
-					legend_circle = d3.select(".county_legend_circle")
+						legend_circle = d3.select(".county_legend_circle")
 
-					legend_circle
-						.transition()
-						.duration(1000)
-						.attr("fill", color)
+						legend_circle
+							.transition()
+							.duration(1000)
+							.attr("fill", color)
+					} else {
+						reset = 1;
+						d3.select(".county_legend_circle").remove();
+						d3.select(".county_legend").remove();
+					}
 
 					average_line
 						.transition()
@@ -418,7 +469,6 @@ let drawLineCharts = () => {
 
 				}
 
-
 				d3.select("#selectButton").on("change", function(event, d) {
 					const selectedOption = d3.select(this).property("value")
 					update(selectedOption)
@@ -427,6 +477,8 @@ let drawLineCharts = () => {
 			}
 		});
 }
+
+/* Using the first dataset it starts the visualization project*/
 		
 d3.json(norwayDatasets[0]).then(
 	(data, error) => {
@@ -440,8 +492,8 @@ d3.json(norwayDatasets[0]).then(
 			norwayData = topojson.feature(data, data.objects.map_data_topo).features;
 			console.log(norwayData);
 			drawMap();
-			drawLineCharts();
 			drawStations();
+			drawLineCharts();
 	 				}
 				}
 			)
