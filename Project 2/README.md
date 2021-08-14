@@ -4,7 +4,7 @@ The following project utilizes radiation data derived from DSA Norwegian Radiati
 showing the daily radiation change on a two week range of observation. The data is taken directly from the DSA Open Data, carefully engineered and later visualized. 
 
 The data representation is the following:
-* A choroplet based on the Norwegian regional districts
+* A choropleth based on the Norwegian regional districts
 * The change in color will represent the change in the average radioactivity value
 * An animation will show the changes in value over a time interval, showing any phenomena of high radioactivity.
 * A linechart for each district shows the variation in the radiation level over the entire observation period, the graph can be selected by the user by choosing the district to be analyzed.
